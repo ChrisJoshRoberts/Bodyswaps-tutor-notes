@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;500;700&display=swap" rel="stylesheet">
+    <title>Bodyswaps | PS1 offline activities</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/1068113709840478290/1072090665992859758/favicon.png">
+
+<style>
+    * {
+        margin: 0 auto;
+        font-family: 'Inter', sans-serif;
+        padding: 0;
+    }
+
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 67vh;
+        background-image: url(https://cdn.discordapp.com/attachments/1068113709840478290/1072814548203094016/header-image_offline_act.png);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+    h1 {
+        width: 65vw;
+        font-size: 54px;
+        color: white;
+        padding: 8px;
+        text-align: center;
+        }
+    .section_title {
+        color: #FF9416;
+        font-size: 44px;
+    }
+    .ex-section_title {
+        color: #FF9416;
+        padding: 54px 0px;
+        font-size: 44px;
+
+    }
+    .about-container {
+        display: flex;
+    }
+.about-left {
+    width: 50vw;
+    
+}
+.about-right {
+    width: 50vw;
+    margin-left: 75px;
+}
+.about-container {
+    width: 100%;
+    padding-top: 44px;
+    
+}
+.about-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-left: 32px;
+}
+.about-para {
+    color: #64626A;
+    font-weight: 300;
+    font-size: 18px;    
+    padding: 16px 54px 24px 0px;
+}
+.about {
+    padding-top: 44px;
+}
+.prep-title {
+    text-align: center;
+    position: relative;
+    margin-top: 95px;
+}
+.prep-img {
+    width: 100%;
+}
+.prep-head {
+    width: 30vw;
+    top:-100px;
+    position: relative;
+    padding: 43px 85px;
+    background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+font-weight: 700;
+font-size: 48px;
+/* identical to box height */
+color: #FF9416;
+}
+.table-cont {
+    width: 65%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    }
+.table-title {    
+    color: #FFFFFF;
+    background: #192E40;
+    border-radius: 10px 10px 0px 0px;
+    font-weight: 700;
+    font-size: 24px;
+/* identical to box height */
+color: #FFFFFF;
+}
+h4 {
+    padding:16px;
+}
+.ex-para {
+    font-weight: 300;
+    font-size: 18px;
+    color: #64626A;
+    padding: 24px;
+
+}
+
+.ex-para-list {
+    font-weight: 300;
+    font-size: 18px;
+    color: #64626A;
+    padding: 0px 50px;
+}
+a {
+    color: #FF9416;
+}
+.inner-table {
+    display: flex;
+}
+.left-col-box {
+    border-radius: 10px 0px 0px 10px;
+    
+    border: 1px solid rgba(25, 46, 64, 0.4);
+    padding: 24px;
+    transition: all 0.5s;
+}
+.left-col-box:hover {
+    border: 1px solid rgba(255, 148, 22, 1);
+    background-color: #F0F0F0;
+    color: white;
+}
+.mid-col-box {
+    margin-top: 24px;
+    font-weight: 600;
+    color: #192E40;
+    padding: 24px 0px;
+    width: 100%;
+}
+.right-col-box {
+    border-radius: 0px 10px 10px 0px;
+    border: 1px solid rgba(25, 46, 64, 0.4);
+    padding: 24px;
+    transition: all 0.5s;
+}
+.right-col-box:hover {
+    border: 1px solid rgba(255, 148, 22, 1);
+    background-color: #F0F0F0
+}
+.tb-title {
+    color: #192E40;
+    font-size: 16px;
+    padding-bottom: 8px ;
+}
+.tb-info {
+    color: #192E40;
+    font-size: 16px;
+    font-weight: 300;
+    width: 400px;
+}
+.column-table {
+    display: block
+}
+.footer-logo {
+            padding: 24px;
+        }
+        .footer-para{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: right;
+            width: 322px;
+            color: #FFFFFF;
+            padding-top: 24px;
+            margin-right: 32px;
+        }
+        .right{
+            width: 50%;
+        }
+        footer {
+            margin-top: 52px;
+            display: flex;
+            justify-content: space-around;
+            height: 228px;
+            /* Midnight
+
+            Primary color
+            */
+            background: #192E40;
+        }
+        .example {
+            background-color: #658DA6;
+            border-radius: 10px;
+            width: 95%;
+        
+        }
+        .example-para {
+            color: white;
+            padding: 24px;
+        }
+        table {
+            padding: 24px;
+            border-radius: 10px;
+            width: 100%;
+        }
+        td {
+            border: 1px solid #658DA6;
+            padding: 24px 16px; 
+        }
+        .tab-title {
+            font-weight: 700;
+            color: #192E40;
+            text-align: center;
+            background-color: #b2ccdd;
+        }
+        .tab-description{
+            font-weight: 300;
+            color: #192E40;
+        }
+    .auth-detials {
+        color: #192E40;
+        font-weight: 300 ;
+    }
+    .auth-mid {
+        color: #192E40;
+        font-weight: 700;
+        text-align: center;
+    }
+        
+</style>
+</head>
+
+<body>
+    <header>
+        <img src="https://cdn.discordapp.com/attachments/1068113709840478290/1069968010405761144/bodyswaps_logo_white.png" alt="logo">
+        <h1>Public Speaking & Presentation Skills Essentials - Offline activities
+        </h1>
+    </header>
+    
+    <section class="about">
+        <h1 class="section_title">About this document</h1>
+        <div class="about-container">
+            <div class="about-left">
+                <div class="img-wrapper">
+                    <img class="about-img" src="https://cdn.discordapp.com/attachments/1068113709840478290/1072815842061996072/T04-Vocalises.png" alt="">
+                </div>
+            </div>
+            <div class="about-right">
+                <p class="about-para">Bodyswaps’ VR simulations are a great way to develop and practise public speaking and presentation skills. But to help learners make the most of these opportunities, we have created some offline exercises for them to complete <strong>before they put their headset on.</strong> <br><br>
+
+                    Ideally, learners should complete these exercises a day or two before starting the simulation to have sufficient time to reflect on what they discover. <br><br>
+                    
+                    If learners aren’t able to complete these exercises beforehand, they can still benefit from taking a few minutes to think about them just before they start the relevant activity in VR. <br><br>
+                    
+                    Once learners have completed an activity, the best way to boost learning outcomes and maximise chances of success is by practising what they have learned - a lot! <br><br>
+                    
+                    We have also suggested some exercises they can do <strong>once they take the headset off</strong> to extend the benefits of the training. <br><br>
+                    
+                    This document collates the offline exercises in relation to each individual activity. <br><br>
+                     
+                    Learners can do these exercises alone or in discussion with others. It may help them to keep notes on these activities. 
+                    </p>
+            </div>
+        </div>
+    </section>
+    <div class="prep-title">
+        <img class="prep-img" src="https://cdn.discordapp.com/attachments/1068113709840478290/1072830180927737866/T04-Vocalises_2-2.png" alt="">
+        <div class="prep-head">Preparation exercises</div>
+    </div>
+
+    <section class="exercise-table">
+        <h1 class="ex-section_title">Countdown to calm</h1>
+        <div class="table-cont">
+            <div class="table-title">
+                <h4>Exercise 1 - Real world grounding</h4>
+            </div>
+            <div class="table-content">
+                <p class="ex-para">Like all life skills, anxiety management techniques improve with practice. <br><br>
+
+                    Commit the 5 steps of the grounding technique to memory:
+                </p>
+                   <ul class="ex-para-list">
+                    <li>5 things you can see</li>
+                    <li>4 things you can feel</li>
+                    <li>3 things you can hear</li>
+                    <li>2 things you can smell</li>
+                    <li>1 thing you can taste</li>
+                   </ul>
+                <p class="ex-para">
+                    Practise this at non-stressful times - at home, on the bus, at lunch, in the morning, in the evening… <br><br>
+                    
+                    Then, try practising the technique during mildly stressful events. Maybe you can’t find something or somebody says something that annoys you. Before you react, do the grounding countdown. <br><br>
+                    
+                    When you can calm your mind and focus on the present without needing to go all the way through the countdown from 5 to 1, you’re on your way to becoming a zen master! 
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="exercise-table">
+        <h1 class="ex-section_title">Non-verbal basics</h1>
+        <div class="table-cont">
+            <div class="table-title">
+                <h4>Exercise 2 - Observing others - Body language</h4>
+            </div>
+            <div class="table-content">
+                <p class="ex-para">To get the most out of our Performance activities, spend some time studying other people speaking in public. This might be politicians, keynote speakers, even your teacher. Pay particular attention to: 
+                </p>
+                   <ul class="ex-para-list">
+                    <li> <strong>Body language</strong> - How do they stand, move around, gesticulate? What does it tell you about their emotional state? Do they look confident, approachable, energised? Or do they look nervous, uncertain, uncomfortable? </li>
+                </ul>
+                <p class="ex-para">
+                    Now think about your overall impressions of that speaker. What influenced your opinion the most - what they said or how they said it? What aspects of their performance would you like to replicate (or avoid)? <br><br>
+                    <i>
+                    In our performance activities, you will have a chance to experiment with some of these behaviours to find out how to use your voice in different ways to connect with your audience. </i>
+                    
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="exercise-table">
+        <h1 class="ex-section_title">Non-verbal basics</h1>
+        <div class="table-cont">
+            <div class="table-title">
+                <h4>Exercise 3 - Observing others - Voice</h4>
+            </div>
+            <div class="table-content">
+                <p class="ex-para">To get the most out of our Performance activities, spend some time studying other people speaking in public. This might be politicians, keynote speakers, even your teacher. Pay particular attention to: 
+                </p>
+                   <ul class="ex-para-list">
+                    <li> <strong>Voice</strong>- How do they speak? Can you hear what they’re saying? Do they speak in a monotone or vary their pitch? How do they use their voice to emphasise specific words? Does their tone make you want to pay attention or fall asleep?</li>
+                </ul>
+                <p class="ex-para">
+                    Now think about your overall impressions of that speaker. What influenced your opinion the most - what they said or how they said it? What aspects of their performance would you like to replicate (or avoid)? <br><br>
+                    <i>
+                        In our performance activities, you will have a chance to experiment with some of these behaviours to find out how to use your voice in different ways to connect with your audience.  </i>
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="exercise-table">
+        <h1 class="ex-section_title">Non-verbal basics</h1>
+        <div class="table-cont">
+            <div class="table-title">
+                <h4>Exercise 4 - Observing others - Delivery</h4>
+            </div>
+            <div class="table-content">
+                <p class="ex-para">To get the most out of our Performance activities, spend some time studying other people speaking in public. This might be politicians, keynote speakers, even your teacher. Pay particular attention to: 
+                </p>
+                   <ul class="ex-para-list">
+                    <li> <strong>Delivery</strong>- Do they speak slowly, rapidly - or do they mix it up? Are their words clear? Do they sound serious, energised, passionate, indifferent…?  </li>
+                </ul>
+                <p class="ex-para">
+                    Now think about your overall impressions of that speaker. What influenced your opinion the most - what they said or how they said it? What aspects of their performance would you like to replicate (or avoid)?<br><br>
+                    <i>
+                        In our performance activities, you will have a chance to experiment with some of these behaviours to find out how to use your voice in different ways to connect with your audience. 
+                     </i>
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="exercise-table">
+        <h1 class="ex-section_title">Verbal pacing</h1>
+        <div class="table-cont">
+            <div class="table-title">
+                <h4>Exercise 5 - Listening to great speakers</h4>
+            </div>
+            <div class="table-content">
+                <p class="ex-para">If you want to learn how to command an audience, watch these videos of famous speakers, paying close attention to their rate of speech. 
+                </p>
+                   <ul class="ex-para-list">
+                    <li> <strong>Martin Luther King Jr. </strong>- <a href="https://www.youtube.com/watch?v=vP4iY1TtS3s&t=12s">I Have a Dream</a> - slow and deliberate </li>
+                    <li><strong>Steve Jobs</strong> - <a href="https://www.youtube.com/watch?v=UF8uR6Z6KLc&t=214s">Stanford Commencement Address</a> - Rapid-fire delivery</li>
+                    <li><strong>Tony Robbins </strong>- <a href="https://www.youtube.com/watch?v=BwFOwyoH-3g&t=471s">Why Do We Do What We Do? </a> - Rapid-fire delivery</li>
+                </ul>
+                <p class="ex-para">
+                    Discuss in pairs or small groups whether successful public speakers deliberately control their rate of speech for different effects and, if so, what those effects might be.  <br><br>
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="exercise-table">
+        <h1 class="ex-section_title">Your authentic voice</h1>
+        <div class="table-cont">
+            <div class="table-title">
+                <h4>Exercise 6 - Reflecting on your own communication style</h4>
+            </div>
+            <div class="table-content">
+                <p class="ex-para">This is an activity you can do by yourself or with someone whose opinion you trust. 
+                    Think about a subject that you feel really strongly about. 
+                    If you had to explain that subject to someone else, how would you do it? <br><br>
+
+                    Would you be…
+                    
+                </p>
+                <table>
+                    <tr>
+                        <td class="auth-detials"><strong>Direct</strong><br>You don't mess around, you just say what you think!</td>
+                        <td class="auth-mid">or</td>
+                        <td class="auth-detials"><strong>Diplomatic</strong><br>You choose your words carefully so as not to offend.</td>
+                    </tr>
+                    <tr>
+                        <td class="auth-detials"><strong>Spontaneous</strong><br>You speak from the heart, without overthinking it. </td>
+                        <td class="auth-mid">or</td>
+                        <td class="auth-detials"><strong>Thoughtful</strong><br>You take time to plan what to say before you speak.</td>
+                    </tr>
+                    <tr>
+                        <td class="auth-detials"><strong>Emotional</strong><br>You share your feelings easily.</td>
+                        <td class="auth-mid">or</td>
+                        <td class="auth-detials"><strong>Intellectual</strong><br>You prefer to stick to the facts.</td>
+                    </tr>
+                    <tr>
+                        <td class="auth-detials"><strong>Explaining</strong><br>You’re good at breaking complex subjects down so they’re easy to understand.</td>
+                        <td class="auth-mid">or</td>
+                        <td class="auth-detials"><strong>Inspiring</strong><br>You don’t tell people what to think, you inspire them with a fresh perspective. </td>
+                    </tr>
+                    <tr>
+                        <td class="auth-detials"><strong>Guide</strong><br>You like to sprinkle breadcrumbs for others to follow on the path to understanding.</td>
+                        <td class="auth-mid">or</td>
+                        <td class="auth-detials"><strong>Tell</strong><br>You like to tell people what they need to know and do.</td>
+                    </tr>
+                    <tr>
+                        <td class="auth-detials"><strong>Statistics</strong><br>You hit them with data. Facts and figures are more convincing than anecdotes.</td>
+                        <td class="auth-mid">or</td>
+                        <td class="auth-detials"><strong>Stories</strong><br>You like to share your experiences and those of your friends. </td>
+                    </tr>
+                </table>
+
+
+            <p class="ex-para">
+                <i>In our diagnostic activity, we’ll be drawing upon these reflections to explain how to embrace your natural communication style to become a more confident, charismatic and authentic speaker.</i>
+            </p>
+        </div>
+
+    </section>
+
+    <section class="exercise-table">
+        <h1 class="ex-section_title">Beginning, middle, end</h1>
+        <div class="table-cont">
+            <div class="table-title">
+                <h4>Exercise 7 - Choosing a speech topic</h4>
+            </div>
+            <div class="table-content">
+                <p class="ex-para">If you’re going to give a presentation, you need to have something to speak about! If you haven’t already been given a subject to talk about, spend some time now, thinking about what topic you’ll choose. <br><br>
+
+                    Here are some things to think about: 
+                    
+                </p>
+                <ul class="ex-para-list">
+                    <li>What topic interests you? </li>
+                    <li>Why is it important to you?</li>
+                    <li>Why should your audience be interested? </li>
+                    <li>What do you want your audience to know,  feel and do as a result of your speech?</li>
+
+                </ul>
+                <p class="ex-para">
+                    Finally, choose one major idea to talk about and summarise it in a single sentence. If you can’t easily summarise it, your speech is too complex. Simplify it and then write it down. <br><br>
+
+                    When you come to planning your speech in more detail, you can use this idea statement to keep your speech on track. 
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="exercise-table">
+        <h1 class="ex-section_title">Simulation</h1>
+        <div class="table-cont">
+            <div class="table-title">
+                <h4>Exercise 8 - Preparing to present a project or idea</h4>
+            </div>
+            <div class="table-content">
+                <p class="ex-para">Our simulation activity is designed to put the public speaking skills you’ve learned to the test. You can use this opportunity to practise a presentation you’ve already prepared, or you can use one of our ready-prepared presentation decks. <br><br>
+
+                    If you want to upload your own presentation, you will need to do the following: 
+                    
+                </p>
+                <ol class="ex-para-list">
+                    <li>Make sure you have an account on Bodyswaps Go. Your tutor or trainer can help you with this.</li>
+                    <li>Create your presentation slides using your preferred software package and then export a copy in PDF format. </li>
+                    <li>Upload your PDF presentation to the Documents tab in Bodyswaps Go. </li>
+                </ol>
+                <p class="ex-para">
+                    The next time you launch the Bodyswaps app, your presentation will be available for selection in the simulation. 
+
+                    You can find more information about uploading documents to Bodyswaps <a href="https://coda.io/@bodyswaps/help-center/uploading-documents-32">here</a>  
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="prep-title">
+        <img class="prep-img" src="https://cdn.discordapp.com/attachments/1068113709840478290/1072826511243104368/T04-Vocalises_2.png" alt="">
+        <div class="prep-head">Post-simulation excersices</div>
+    </div>
+
+    <section class="exercise-table">
+        <h1 class="ex-section_title">Countdown to calm</h1>
+        <div class="table-cont">
+            <div class="table-title">
+                <h4>Exercise 9 - Real world grounding</h4>
+            </div>
+            <div class="table-content">
+                <p class="ex-para">Like all life skills, anxiety management techniques improve with practice. <br><br>
+
+                    Commit the 5 steps of the grounding technique to memory:
+                    
+                    
+                </p>
+                <ul class="ex-para-list">
+                    <li>5 things you can see</li>
+                    <li>4 things you can feel</li>
+                    <li>3 things you can hear</li>
+                    <li>2 things you can smell</li>
+                    <li>1 thing you can taste</li>
+                </ul>
+                <p class="ex-para">
+                    Practise this at non-stressful times - at home, on the bus, at lunch, in the morning, in the evening…  <br><br>
+
+                    Then, try practising the technique during mildly stressful events. Maybe you can’t find something or somebody says something that annoys you. Before you react, do the grounding countdown.  <br><br>
+
+                    When you can calm your mind and focus on the present without needing to go all the way through the countdown from 5 to 1, you’re on your way to becoming a zen master!  
+
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="exercise-table">
+        <h1 class="ex-section_title">Non-verbal basics</h1>
+        <div class="table-cont">
+            <div class="table-title">
+                <h4>Exercise 10 - Laser eyes!</h4>
+            </div>
+            <div class="table-content">
+                <p class="ex-para">In the training, we saw how important eye contact is for building trust and holding the attention of an audience. But if you’re talking to an audience, you can’t make eye contact with all the people all the time, so what should you do? <br><br>
+
+                    The secret is that you don’t have to look at every person in the room to make it feel like you are talking to everyone in the room. <br><br>
+                    
+                    Here’s an activity you can do in a group setting: <br><br>
+                    
+                    Take it in turns to be the speaker. When it’s your turn, stand in front of your audience and ask everybody to raise their hand in the air and hold it there until you look at them. 
+                </p>
+                <ol class="ex-para-list">
+                    <li>Mentally divide the audience into three sections</li>
+                    <li>Focus on the person in the middle of the middle section for 3-5 seconds and see how many people around them lower their hands.</li>
+                    <li>Now focus on the person in the middle of the left side of the room. Then do the same with the person in the middle of the right side of the room. </li>
+                    <li>Keep moving your focus until nobody has their hand raised.</li>
+                </ol>
+                <p class="ex-para">
+
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="exercise-table">
+        <h1 class="ex-section_title">Non-verbal basics</h1>
+        <div class="table-cont">
+            <div class="table-title">
+                <h4>Exercise 11 - Articulators</h4>
+            </div>
+            <div class="table-content">
+                <p class="ex-para">In the training, we looked at some vocalises you can do to train and warm up your voice. But you don’t need to stop there. Watch   <a href="">this video</a> and try the exercises demonstrated. <br><br>
+
+                    They look kind of funny, so you might want to do them in private, but it’s worth it! Not only will these exercises help you to speak more clearly, but they’re great face yoga to keep wrinkles and double chins at bay! 
+                    
+                </p>
+                <ol class="ex-para-list">
+                
+                </ol>
+                <p class="ex-para">
+
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="exercise-table">
+        <h1 class="ex-section_title">Non-verbal basics</h1>
+        <div class="table-cont">
+            <div class="table-title">
+                <h4>Exercise 12 - Mixing it up</h4>
+            </div>
+            <div class="table-content">
+                <p class="ex-para">In the training, we saw Nola giving a speech about the importance of verbal pacing. The accompanying journal article contains a transcript of her speech. Looking at the transcript, highlight the sentences that you think would be most effective delivered fast or slow. <br><br>
+
+                    Try reading it out loud, altering the pace to match your notes. 
+                    <br><br>
+                    
+                    Listen to how others have chosen to deliver the speech. Have you interpreted its delivery in the same way or differently? 
+                    <br><br>
+                    Do different rates of delivery affect how you engage with or interpret the words? 
+                    
+                    
+                </p>
+                <ol class="ex-para-list">
+                
+                </ol>
+                <p class="ex-para">
+
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="exercise-table">
+        <h1 class="ex-section_title">Your authentic voice</h1>
+        <div class="table-cont">
+            <div class="table-title">
+                <h4>Exercise 13 - Your authentic speaking style</h4>
+            </div>
+            <div class="table-content">
+                <p class="ex-para">In the training, we looked at the importance of being authentic and explored whether your natural speaking style was a Teacher, Motivator, Expert or Influencer. The point of the exercise wasn’t to pigeonhole you or put you in a box. It was to help you to think about your interests and motivations, so that you can incorporate them into your speeches. <br><br>
+
+                    In reality, we’re rarely one thing or another - we’re somewhere in-between. Choose a pair where you feel no strong preference for one or the other. Now, for your subject, think about something you really care about and make up a <strong>three- to five-sentence speech</strong> for each of the criteria. <br><br>
+                    
+                    When you have written them, practise delivering your speeches either in private or as a group activity. Record yourself and as you watch it back, think about which approach you connected with the most. This will be your most authentic and charismatic performance. <br><br>
+                    
+                    You can repeat this activity with as many other pairs of criteria or subjects as you like. Or you can use this approach as inspiration for generating new speech ideas. <br><br>    
+                </p>
+
+                <div class="example">
+                    <p class="example-para">
+                         <strong>Example</strong> <br><br>
+
+                        <strong>Criteria</strong>  - Explaining or Inspiring
+                        <strong>Subject</strong> - Saving a tree that developers want to pull down <br><br>
+
+                        <strong>Explaining speech: </strong> <br>
+                        Trees provide shelter from the elements, keeping us cooler in the summer and warmer in winter. Their roots stabilise the soil and take up excess rainfall to prevent soil erosion and flooding. And their respiration improves air quality, reducing atmospheric and noise pollution. They benefit everybody, please spare this tree. <br><br>
+
+                        <strong>Inspiring speech:</strong> <br>
+                        For decades, this tree has been our friend. It has cleaned our air, shaded the pavement, lifted our spirits, fed our wildlife and improved our surroundings. And it will continue to do so for generations to come, if we just let it live. Please, let it live for all our sakes. 
+
+                    </p>
+                </div>
+                <p class="ex-para">Here are the criteria that Jeremy used to identify your style:
+                </p>
+
+                <table>
+                    <tr>
+                    <td class="tab-title">Direct or Diplomatic</td>
+                    <td class="tab-description">Would you say your conversational style was direct and to the point or diplomatic and reserved?</td>
+                    </tr>
+                    <tr>
+                        <td class="tab-title">Spontaneous or Thoughtful</td>
+                        <td class="tab-description">Would you rather speak off the cuff or take your time and plan what you want to say first?</td>
+                    </tr>
+                    <tr>
+                        <td class="tab-title">Emotional or Intellectual</td>
+                        <td class="tab-description">Are your best conversations the ones when you connect with others on an emotional or an intellectual level? </td>
+                    </tr>
+                    <tr>
+                        <td class="tab-title">Explaining or Inspiring</td>
+                        <td class="tab-description">Which are you best at… Simplifying and explaining complex concepts or inspiring others to look at things from a fresh perspective.</td>
+                    </tr>
+                    <tr>
+                        <td class="tab-title">Guide or Tell</td>
+                        <td class="tab-description">When working with others, would you rather guide them towards finding their own solution or tell them what they need to do?</td>
+                    </tr>
+                    <tr>
+                        <td class="tab-title">Statistics or Stories </td>
+                        <td class="tab-description">Which do you find most convincing… facts, data and statistics or anecdotal evidence and real-life stories?</td>
+                    </tr>
+
+                    
+                </table>
+                
+            </div>
+
+        </div>
+    </section>
+
+    <section class="exercise-table">
+        <h1 class="ex-section_title">Beginning, middle, end</h1>
+        <div class="table-cont">
+            <div class="table-title">
+                <h4>Exercise 14 - Structure for success</h4>
+            </div>
+            <div class="table-content">
+                <p class="ex-para">In this activity, we looked at three different ways of structuring a speech with a beginning, middle and end. Here are those strategies again: <br><br>
+
+                If you’re speaking to <strong>inform</strong>, stick to the facts. 
+                </p>
+                <ul class="ex-para-list">
+                    <li>Begin with a hook - a question, a joke or an interesting fact or statistic</li>
+                    <li>Focus the middle around three key points</li>
+                    <li>End with a call to action - what do you want your audience to do?</li>
+                </ul>
+                <p class="ex-para">
+                    If you’re speaking to <strong>influence</strong>, appeal to your audience’s emotions.
+                </p>
+                <ul class="ex-para-list">
+                    <li>Begin by identifying a problem that your audience cares about</li>
+                    <li>Use the middle to present your solution - evidence your claims with examples, comparisons, metaphors, case studies and stories.</li>
+                    <li>End by saying it again - reframe the problem and solution to drive your point home</li>
+                </ul>
+                <p class="ex-para">
+                    If you’re speaking to <strong>inspire</strong>, tell your audience a story.
+                </p>
+                <ul class="ex-para-list">
+                    <li>Begin by setting the scene - who is the hero? What’s their mission?</li>
+                    <li>Introduce the conflict - something that will hold your audience’s attention</li>
+                    <li>Describe the climax - what was the outcome? What was the point of telling this story?</li>
+                </ul>
+                <p class="ex-para">
+                    Watch Adora Svitak’s (2010) Ted Talk - <a href="https://www.ted.com/talks/adora_svitak_what_adults_can_learn_from_kids">What adults can learn from kids</a> - and try to identify the essence of the beginning, middle and end of her speech. Was she speaking to inform, influence or inspire?  <br><br>
+
+                    Here are two more Ted Talks you might like to watch, while you think about structuring your speech: <br><br>
+                    
+                    Shane Koyczan (2013) - <a href="https://www.ted.com/talks/shane_koyczan_to_this_day_for_the_bullied_and_beautiful">To this day… for the bullied and beautiful</a> <br><br>
+                    Gever Tulley (2007) - <a href="https://www.ted.com/talks/gever_tulley_5_dangerous_things_you_should_let_your_kids_do/">5 dangerous things you should let your kids do</a>
+                    <br><br>
+                    Do they fit into any of these strategies? Hint: one of them breaks the beginning, middle, end rule. Can you tell which one it is? Do you think it matters? Would you do anything differently with this speech yourself?
+                    
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <div class="left">
+            <img class="footer-logo" src="https://cdn.discordapp.com/attachments/1068113709840478290/1069968010405761144/bodyswaps_logo_white.png" alt="logo">
+        
+        </div>
+        <div class="right">
+            <p class="footer-para" >
+                87-91 Hackney Road, E2 8FE London
+                +44(0)79 1773 5078 <br><br>
+
+                hello@bodyswaps.co
+                bodyswaps.co
+            </p>
+        </div>
+
+    </footer>
+</body>
+</html>
