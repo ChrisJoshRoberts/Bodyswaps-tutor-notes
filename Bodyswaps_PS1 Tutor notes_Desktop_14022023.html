@@ -1,0 +1,1882 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;500;700&display=swap" rel="stylesheet">
+
+
+    <title>Bodyswaps | Tutor Notes</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/1068113709840478290/1072090665992859758/favicon.png">
+    <script>
+        function myFunction() {
+            document.getElementById("ex_title").innerHTML = "Remaining calm, focused and in control."
+        };
+        function newFunc() {
+            document.getElementById("ex_title").innerHTML = "Enhancing your words using voice and body language."
+        };
+        function nextFunc() {
+            document.getElementById("ex_title").innerHTML = "Building a genuine connection with your audience."
+        };
+        function lastFunc() {
+            document.getElementById("ex_title").innerHTML = "Structuring your content to achieve your goals."
+        };
+        function gotIt() {
+            document.getElementById("terminology").style = "visibility: hidden;"
+        };
+
+        let mybutton = document.getElementById("back-to-top");
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20  || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        };
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop =0;
+        };
+
+    </script>
+    <style>
+        * {
+            margin: 0 auto;
+            font-family: 'Inter', sans-serif;
+            padding: 0;
+        }
+    
+
+        header {
+            
+            flex-direction: column;
+            background-image: url(https://cdn.discordapp.com/attachments/1068113709840478290/1072495010496380968/header-img.png);
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1em;
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            
+        }
+
+   
+
+        
+        h1 {
+            font-size: 54px;
+            color: white;
+            padding: 8px;
+            text-align: center;
+        }
+        h2 {
+    
+            font-size: 18px;
+            line-height: 22px;
+            color: #FFFFFF;
+        }
+        h3 {
+            color: #64626A;
+            text-align: center;
+            padding-top: 44px;
+        }
+        h4 {
+            padding-top: 16px;
+            color: #192E40;
+        }
+        h5 {
+            padding-top: 24px;
+            width: 50%;
+            font-weight: 200;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.7);
+
+        }
+        h6 {
+            padding: 32px;
+            font-weight: 700;
+            font-size: 24px;
+            color: #192E40;
+        }
+        p {
+            color: white;
+            font-weight: 100;
+            font-size: 24px;
+            text-align: center;
+        }
+        a {
+            color: #FF9416;
+        }
+        section {
+            padding: 32px;
+        }
+        .section_title {
+            color: #FF9416;
+            font-size: 42px;
+        }
+        .section_para {
+            color: #64626A;
+            font-size: 18px;
+            padding-top:24px ;
+        }
+        .section_para-bold {
+            color: #64626A;
+            font-size: 18px;
+            padding-top:24px ;
+            font-weight: 300;
+            
+        }
+        .container {
+            width: 70%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .box{
+            margin-top: 38px;
+            font-weight: 700;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 231px;
+            height: 70px;
+            text-align: center;
+            color: #192E40;
+            background: #FFFFFF;
+            border: 1px solid #192E40;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            transition: color 0.5s, background 0.5s;
+
+        }
+        .box:hover {
+            color: #FFFFFF;
+            background: #192E40;
+            border: 1px solid #FFFFFF;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .explination {
+            
+            height: 122px;
+            border-bottom: 1px solid #231A49;
+            width: 80%;
+        }
+        .ex_title {
+            color: #192E40;
+        }
+        .icon-container {
+            padding-top: 24px;
+            padding-bottom: 32px;
+        }
+        .icon-inner {
+            display: flex;
+            flex-wrap: wrap;
+            width: 50%;
+        }
+        .icon {
+            margin: 0;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 20px 30px;
+            gap: 11px;
+
+            width: 249px;
+            height: 62px;
+            left: 255px;
+            top: 1180px;
+
+            background: #FFFFFF;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .tick {
+            margin: 0;
+        }
+
+        .programme-structure {
+            text-align: center;
+            padding: 0px;
+        }
+        .prog-bg-top {
+            background-color: #192E40;
+            width: 100%;
+            padding-bottom: 145px ;
+            padding-top: 52px;
+        }
+        .prog-title {
+            color: #FFFFFF;
+        }
+        .prog-icon-cont {
+            padding-top: 52px;
+            display: flex;
+            width: 50%;
+            flex-wrap: wrap;
+        }
+        .prog-icon {
+            padding: 24px;
+        }
+        .learner-journey {
+            width: 70%;
+            min-width: 360px;
+            margin: 0 auto;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-top: 32px;
+            transition: all 0.3s;
+            padding: 24px 24px 62px 24px;
+            position: relative;
+            top: -100px;
+        }
+        .learner-graph{
+            width: 80%;
+            min-width: 360px;
+            margin: 0 auto;
+            
+            
+        }
+        .level-objectives {
+            text-align: center;
+        }
+        .goals-icon {
+            padding-top: 32px;
+        }
+        .g-title {
+            font-size: 32px;
+            color: #231A49;
+            padding-bottom: 24px;
+            margin: 0;
+
+        }
+        .points {
+            display: flex;
+            align-items: center;
+            padding-bottom: 24px;
+            margin: 0;
+        }
+        .goals-col {
+            padding-top: 32px;
+            display: flex;
+        }
+        .outcomes {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            
+
+        }
+        #terminology {
+            background: #FFFFFF;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            width: 65vh;
+            text-align: left;
+            transition: all 0.3s;
+        }
+        .term-p {
+            color: #26293F;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            text-align: left;
+            padding: 8px 32px;
+        }
+        button {
+            margin: 24px;
+            position: relative;
+            border-radius: 32px;
+            background-color: #192E40;
+            align-items: center;
+            padding: 9.57576px 38.303px 8.37879px;
+            width: 122.61px;
+            height: 38.95px;
+            background: #192E40;
+            border-radius: 59.8485px;
+            color: #FFFFFF;
+            border: none;
+            transition: all 0.1s;
+        }
+        button:hover {
+            background: #2a5376;
+        }
+        .target-icon {
+            padding-right: 16px ;
+        }
+        .target-p {
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 22px;
+            color: #64626A;
+            text-align: left;
+            margin: 0;
+
+        }
+        .chracters {
+            
+            background-color:#F7F7F9;
+            z-index: -20;
+        }
+        .person {
+
+            position: relative;
+            text-align: center;
+        }
+        .char {
+            position: relative;
+            z-index: 1;
+            opacity: 1;
+            width: 188px;
+            height: 384.34px;
+            transition: all 0.1s;
+
+        }
+
+        #circle {
+            position: absolute;
+            right: -18px;
+            top:100px;
+            z-index: 0;
+            opacity: 0;
+            transition: all 0.5s;
+            
+        }
+
+
+        .models {
+            padding-top: 52px;
+            display: flex;
+        }
+        .char-tag {
+            font-weight: 300;
+            font-size: 17.6904px;
+            color: #231A49;
+        }
+        .char-name {
+            padding: 0;
+            font-weight: 700;
+            font-size: 24px;
+            color: #192E40;
+        }
+        .char-2 {
+            width: 225.92px;
+            height: 461.85px;
+            opacity: 0.5;
+            transition: all 0.1s;
+        }
+
+        .learn-card {
+            width: 27.45vw;
+            min-width: 320px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            margin: 24px;
+            transition: all 0.5s;
+        }
+
+        .learn-card-img{
+            width: 100%;
+        }
+        .title-cont {
+            padding: 24px;
+        }
+        .learn-tag {
+            font-weight: 300;
+            font-size: 17.6904px;
+            color: #231A49;
+            text-align: left;
+        }
+        .card-container {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+        }
+        .char-ash {
+            width: 168px;
+            height: 384.34px;
+            opacity: 1;
+            transition: all 0.1s;
+            
+        }
+
+        .char-nola {
+            width: 147.55px;
+            height: 380.23px;
+            opacity: 1;
+            transition: all 0.1s;
+        }
+
+        .char-jeremy {
+            width: 147.55px;
+            height: 380.23px;
+            opacity: 1;
+            transition: all 0.1s;
+        }
+
+        .char-faye {
+            width: 147.55px;
+            height: 380.23px;
+            opacity: 1;
+            transition: all 0.1s;
+        }
+
+        .induction-container {
+            display: flex;
+            margin-top: 34px;
+            max-width: 1127px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            transition: all 0.5s;
+  justify-content: space-between;
+  align-items: stretch;
+          
+        }
+        @media only screen and (max-width: 1000px){
+            .induction-container{
+                flex-direction: column;
+            }
+            .induc-box {
+                flex: 1 0 100%;
+            }
+        }
+        .bullet-points {
+            display: flex;
+            align-items: center;
+            
+            flex-direction: flex-start;
+            border-bottom: 0.2px solid #231A49;
+            margin-left: 24px;
+            
+        }
+        .induc-title {
+
+            width: 100px;
+            padding: 24px 0px;
+            margin:  0px 24px;
+            text-align: left;
+            
+
+        }
+        .induc-tag {
+            font-weight: 300;
+            font-size: 17.6904px;
+            color: #231A49;
+            text-align: left;  
+            margin: 16px 24px;
+           
+        }
+        .induc-box-vid {
+            padding: 24px;
+        }
+        .induc-para {
+            padding: 24px;
+            font-weight: 300;
+            font-size: 18px;
+            text-align: left;
+            /* Midnight */
+
+            color: #192E40;
+        }
+        li {
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 22px;
+
+            /* Midnight */
+
+            color: #192E40;
+        }
+        footer {
+            margin-top: 52px;
+            display: flex;
+            justify-content: space-around;
+            height: 228px;
+            /* Midnight
+
+            Primary color
+            */
+            background: #192E40;
+        }
+
+        .footer-logo {
+            padding: 24px;
+        }
+        .footer-para{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: right;
+            width: 322px;
+            color: #FFFFFF;
+            padding-top: 24px;
+            margin-right: 32px;
+        }
+        .right{
+            width: 50%;
+        }
+        .out-icon {
+            width: 42px;
+            padding-right: 24px;
+            margin: 0;
+        }
+        .head-img {
+            position: absolute;
+            width: 100vw;
+            z-index: -10;
+           
+            
+            
+        }
+        .about {
+            padding-top: -24px;
+        }
+        .provide-box {
+            position: relative;
+            display: flex;
+            margin: 4px;
+
+            background: #FFFFFF;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .provide-box-related {
+            position: relative;
+            display: flex;
+            margin: 4px;
+        
+            background: #FFFFFF;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+
+        }
+        .tick {
+            padding: 20px 30px;
+            left: 16px;
+            
+        }
+        .provide-title {
+            padding: 20px 30px 20px 0px;
+        }
+        .provide-cont {
+            
+            width: 60%;
+            padding-top: 32px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .lists {
+            padding-left: 32px;
+            padding-bottom: 24px;
+            padding-right: 24px;
+        }
+        #back-to-top {
+            display: none;
+            position: fixed;
+            border-radius: 10px;           
+            background-color: #192E40;
+            font-size: 18px;
+            font-weight: 600;
+            color: white;
+            width: 12rem;
+            bottom: 20px;
+            right: 30px;
+            z-index: 1000;
+            height: 4rem;
+        }
+        .container {
+        width: 80%;
+      display: flex;
+      justify-content: space-between;
+
+    }
+      
+    
+    
+  
+    .item {
+      width: 20%;
+      text-align: center;
+       
+     
+    }
+  
+    img {
+      width: 60%;
+      height: auto;
+      
+    }
+    .logo{
+        width: auto;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <!--
+        <img  class="head-img" src="https://cdn.discordapp.com/attachments/1068113709840478290/1072495010496380968/header-img.png" alt="">
+        -->
+        <img class="logo" src="https://cdn.discordapp.com/attachments/1068113709840478290/1069968010405761144/bodyswaps_logo_white.png" alt="logo">
+        <h1>Public Speaking & Presentation 
+            Skills Essentials</h1>
+        <p>Tutor notes</p>
+            
+        
+    </header>
+    <button onclick="topFunction()" id="back-to-top" title="Go to top">Back to top</button>
+
+    <section class="about">
+        <h1 class="section_title">About this document</h1>
+        <p class="section_para" >Public Speaking & Presentation Skills Essentials is a beginner-level programme that provides general guidance on the basics of communicating effectively with an audience.</p>
+        <h3>Skills are divided into four categories:</h3>
+
+        <div class="container">
+            <div onmouseover="myFunction()" class="box">Composure</div>
+            <div onmouseover="newFunc()" class="box">Performance</div>
+            <div onmouseover="nextFunc()" class="box">Charisma</div>
+            <div onmouseover="lastFunc()" class="box">Content</div>
+        </div>
+        <div class="explination">
+            <h3 id="ex_title"></h3>
+            <h3 id="ex_title_two"></h3>
+            <h3 id="ex_title3"></h3>
+            <h3 id="ex_title4"></h3>
+
+        </div>
+        <div class="icon-container">
+            <h3>This document provides an overview of each of the learning activities featured in this programme, including:</h3>
+            <div class="provide-cont">
+                <div class="provide-box">
+                    <svg class="tick" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_70_365)">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0C4.93281 0 0 4.93281 0 11C0 17.0672 4.93281 22 11 22C17.0672 22 22 17.0672 22 11C22 4.93281 17.0672 0 11 0Z" fill="#4BAE4F"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16.3195 7.29183C16.5859 7.55824 16.5859 7.99652 16.3195 8.26293L9.87422 14.7082C9.74102 14.8414 9.56485 14.9102 9.38868 14.9102C9.2125 14.9102 9.03633 14.8414 8.90313 14.7082L5.68047 11.4856C5.41407 11.2192 5.41407 10.7809 5.68047 10.5145C5.94688 10.2481 6.38516 10.2481 6.65157 10.5145L9.38868 13.2516L15.3484 7.29183C15.6148 7.02113 16.0531 7.02113 16.3195 7.29183Z" fill="white"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_70_365">
+                        <rect width="22" height="22" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                    <h4 class="provide-title" >Purpose of activity</h4>
+                </div>
+                <div class="provide-box">
+                    <svg class="tick" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_70_365)">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0C4.93281 0 0 4.93281 0 11C0 17.0672 4.93281 22 11 22C17.0672 22 22 17.0672 22 11C22 4.93281 17.0672 0 11 0Z" fill="#4BAE4F"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16.3195 7.29183C16.5859 7.55824 16.5859 7.99652 16.3195 8.26293L9.87422 14.7082C9.74102 14.8414 9.56485 14.9102 9.38868 14.9102C9.2125 14.9102 9.03633 14.8414 8.90313 14.7082L5.68047 11.4856C5.41407 11.2192 5.41407 10.7809 5.68047 10.5145C5.94688 10.2481 6.38516 10.2481 6.65157 10.5145L9.38868 13.2516L15.3484 7.29183C15.6148 7.02113 16.0531 7.02113 16.3195 7.29183Z" fill="white"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_70_365">
+                        <rect width="22" height="22" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                    <h4 class="provide-title" >Environment</h4>
+                </div>
+                <div class="provide-box">
+                    <svg class="tick" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_70_365)">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0C4.93281 0 0 4.93281 0 11C0 17.0672 4.93281 22 11 22C17.0672 22 22 17.0672 22 11C22 4.93281 17.0672 0 11 0Z" fill="#4BAE4F"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16.3195 7.29183C16.5859 7.55824 16.5859 7.99652 16.3195 8.26293L9.87422 14.7082C9.74102 14.8414 9.56485 14.9102 9.38868 14.9102C9.2125 14.9102 9.03633 14.8414 8.90313 14.7082L5.68047 11.4856C5.41407 11.2192 5.41407 10.7809 5.68047 10.5145C5.94688 10.2481 6.38516 10.2481 6.65157 10.5145L9.38868 13.2516L15.3484 7.29183C15.6148 7.02113 16.0531 7.02113 16.3195 7.29183Z" fill="white"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_70_365">
+                        <rect width="22" height="22" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                    <h4 class="provide-title" >Characters</h4>
+                </div>
+                <div class="provide-box">
+                    <svg class="tick" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_70_365)">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0C4.93281 0 0 4.93281 0 11C0 17.0672 4.93281 22 11 22C17.0672 22 22 17.0672 22 11C22 4.93281 17.0672 0 11 0Z" fill="#4BAE4F"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16.3195 7.29183C16.5859 7.55824 16.5859 7.99652 16.3195 8.26293L9.87422 14.7082C9.74102 14.8414 9.56485 14.9102 9.38868 14.9102C9.2125 14.9102 9.03633 14.8414 8.90313 14.7082L5.68047 11.4856C5.41407 11.2192 5.41407 10.7809 5.68047 10.5145C5.94688 10.2481 6.38516 10.2481 6.65157 10.5145L9.38868 13.2516L15.3484 7.29183C15.6148 7.02113 16.0531 7.02113 16.3195 7.29183Z" fill="white"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_70_365">
+                        <rect width="22" height="22" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                    <h4 class="provide-title" >Estimated duration</h4>
+                </div>
+                <div class="provide-box-related">
+                    <svg class="tick" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_70_365)">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0C4.93281 0 0 4.93281 0 11C0 17.0672 4.93281 22 11 22C17.0672 22 22 17.0672 22 11C22 4.93281 17.0672 0 11 0Z" fill="#4BAE4F"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16.3195 7.29183C16.5859 7.55824 16.5859 7.99652 16.3195 8.26293L9.87422 14.7082C9.74102 14.8414 9.56485 14.9102 9.38868 14.9102C9.2125 14.9102 9.03633 14.8414 8.90313 14.7082L5.68047 11.4856C5.41407 11.2192 5.41407 10.7809 5.68047 10.5145C5.94688 10.2481 6.38516 10.2481 6.65157 10.5145L9.38868 13.2516L15.3484 7.29183C15.6148 7.02113 16.0531 7.02113 16.3195 7.29183Z" fill="white"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_70_365">
+                        <rect width="22" height="22" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                    <h4 class="provide-title" >Related journal entry</h4>
+                </div>
+                <div class="provide-box">
+                    <svg class="tick" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_70_365)">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0C4.93281 0 0 4.93281 0 11C0 17.0672 4.93281 22 11 22C17.0672 22 22 17.0672 22 11C22 4.93281 17.0672 0 11 0Z" fill="#4BAE4F"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16.3195 7.29183C16.5859 7.55824 16.5859 7.99652 16.3195 8.26293L9.87422 14.7082C9.74102 14.8414 9.56485 14.9102 9.38868 14.9102C9.2125 14.9102 9.03633 14.8414 8.90313 14.7082L5.68047 11.4856C5.41407 11.2192 5.41407 10.7809 5.68047 10.5145C5.94688 10.2481 6.38516 10.2481 6.65157 10.5145L9.38868 13.2516L15.3484 7.29183C15.6148 7.02113 16.0531 7.02113 16.3195 7.29183Z" fill="white"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_70_365">
+                        <rect width="22" height="22" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                    <h4 class="provide-title" >Associated activities</h4>
+                </div>
+                <div class="provide-box">
+                    <svg class="tick" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_70_365)">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0C4.93281 0 0 4.93281 0 11C0 17.0672 4.93281 22 11 22C17.0672 22 22 17.0672 22 11C22 4.93281 17.0672 0 11 0Z" fill="#4BAE4F"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16.3195 7.29183C16.5859 7.55824 16.5859 7.99652 16.3195 8.26293L9.87422 14.7082C9.74102 14.8414 9.56485 14.9102 9.38868 14.9102C9.2125 14.9102 9.03633 14.8414 8.90313 14.7082L5.68047 11.4856C5.41407 11.2192 5.41407 10.7809 5.68047 10.5145C5.94688 10.2481 6.38516 10.2481 6.65157 10.5145L9.38868 13.2516L15.3484 7.29183C15.6148 7.02113 16.0531 7.02113 16.3195 7.29183Z" fill="white"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_70_365">
+                        <rect width="22" height="22" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                    <h4 class="provide-title" >Video walkthrough</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="programme-structure">
+        <div class="prog-bg-top">
+            <h1 class="section_title">Programme structure</h1>
+      
+    
+            <div class="prog-para">
+                <h5>We recommend accessing the ancillary and simulation items (shown here as navy blue squares) in the order indicated by the arrows on the. <br><br>
+                    Orange learning activities can be accessed in the order shown here, or in whatever combination best suits your teaching and learning needs.</h5>
+            </div>
+        </div>
+        <div class="prog-bg-btm">
+            <div class="learner-journey">
+                <h6>Learner Journey</h6>
+    
+                <!-- svg for graph -->
+                <svg  class="learner-graph" width="889" height="568" viewBox="0 0 889 568" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_d_37_36)">
+                    <rect x="323" y="296" width="41" height="41" rx="4.82353" fill="#FF9416"/>
+                    </g>
+                    <g filter="url(#filter1_d_37_36)">
+                    <rect x="323" y="397" width="41" height="41" rx="4.82353" fill="#FF9416"/>
+                    </g>
+                    <g filter="url(#filter2_d_37_36)">
+                    <rect x="323" y="498" width="41" height="41" rx="4.82353" fill="#FF9416"/>
+                    </g>
+                    <path d="M341.939 398.061C342.525 398.646 343.475 398.646 344.061 398.061L353.607 388.515C354.192 387.929 354.192 386.979 353.607 386.393C353.021 385.808 352.071 385.808 351.485 386.393L343 394.879L334.515 386.393C333.929 385.808 332.979 385.808 332.393 386.393C331.808 386.979 331.808 387.929 332.393 388.515L341.939 398.061ZM341.5 337L341.5 397L344.5 397L344.5 337L341.5 337Z" fill="#231A49"/>
+                    <path d="M341.939 499.061C342.525 499.646 343.475 499.646 344.061 499.061L353.607 489.515C354.192 488.929 354.192 487.979 353.607 487.393C353.021 486.808 352.071 486.808 351.485 487.393L343 495.879L334.515 487.393C333.929 486.808 332.979 486.808 332.393 487.393C331.808 487.979 331.808 488.929 332.393 489.515L341.939 499.061ZM341.5 438L341.5 498L344.5 498L344.5 438L341.5 438Z" fill="#231A49"/>
+                    <rect x="525" y="79" width="41" height="108" rx="4.82353" fill="#658DA6"/>
+                    <rect x="424" y="79" width="41" height="109" rx="4.82353" fill="#658DA6"/>
+                    <rect x="323" y="65" width="41" height="122" rx="4.82353" fill="#658DA6"/>
+                    <rect x="222" y="78" width="41" height="109" rx="4.82353" fill="#658DA6"/>
+                    <rect x="18" y="78" width="41" height="109" rx="4.82353" fill="#DDDDDD"/>
+                    <rect x="121" y="65" width="41" height="122" rx="4.82353" fill="#DDDDDD"/>
+                    <path d="M43 179.92L43 177.49L30.76 177.49L30.76 179.92L43 179.92ZM43 175.512L43 173.172L39.076 173.172C37.186 173.172 36.016 172.542 36.016 171.066C36.016 170.094 36.484 169.302 37.798 169.302L43 169.302L43 166.98L37.654 166.98C35.116 166.962 34.054 168.168 34.054 170.184C34.054 171.678 34.63 172.632 35.584 173.208L34.234 173.352L34.234 175.512L43 175.512ZM43.18 161.666C43.18 160.442 42.766 159.47 41.92 158.84L43 158.642L43 156.5L30.76 156.5L30.76 158.84L35.314 158.84C34.45 159.488 34.054 160.442 34.054 161.666C34.054 163.97 35.476 165.626 38.626 165.626C41.776 165.626 43.18 163.952 43.18 161.666ZM38.626 163.196C36.7 163.196 35.908 162.26 35.908 160.982C35.908 159.938 36.43 159.128 37.672 158.84L39.58 158.84C40.804 159.092 41.344 159.902 41.344 160.982C41.344 162.26 40.534 163.196 38.626 163.196ZM43.18 151.496C43.18 150.038 42.622 149.084 41.668 148.49L43 148.364L43 146.222L34.234 146.222L34.234 148.544L38.158 148.544C40.048 148.544 41.218 149.174 41.218 150.632C41.218 151.586 40.768 152.36 39.436 152.36L34.234 152.36L34.234 154.7L39.598 154.7C42.118 154.718 43.18 153.512 43.18 151.496ZM43.18 140.258C43.18 137.954 42.118 136.262 39.814 135.848L39.814 138.26C40.876 138.584 41.344 139.304 41.344 140.258C41.344 141.482 40.534 142.436 38.626 142.436C36.7 142.436 35.908 141.482 35.908 140.258C35.908 139.322 36.34 138.602 37.384 138.278L37.384 135.848C35.098 136.28 34.054 137.954 34.054 140.258C34.054 142.904 35.476 144.866 38.626 144.866C41.776 144.866 43.18 142.904 43.18 140.258ZM35.908 133.584L40.336 133.584C42.37 133.584 43 132.414 43 130.56L43 128.922L41.038 128.922L41.038 130.092C41.038 131.046 40.804 131.244 39.652 131.244L35.908 131.244L35.908 128.976L34.234 128.976L34.234 131.244L31.768 131.244L31.768 133.584L34.234 133.584L34.234 135.042L35.908 135.042L35.908 133.584ZM32.758 125.324L30.76 125.324L30.76 127.664L32.758 127.664L32.758 125.324ZM43 127.664L43 125.324L34.234 125.324L34.234 127.664L43 127.664ZM43.18 119.358C43.18 116.676 41.776 114.75 38.626 114.75C35.476 114.75 34.054 116.676 34.054 119.358C34.054 122.022 35.476 123.966 38.626 123.966C41.776 123.966 43.18 122.022 43.18 119.358ZM38.626 121.536C36.7 121.536 35.908 120.618 35.908 119.358C35.908 118.098 36.7 117.162 38.626 117.162C40.534 117.162 41.344 118.098 41.344 119.358C41.344 120.618 40.534 121.536 38.626 121.536ZM43 113.409L43 111.069L39.076 111.069C37.186 111.069 36.016 110.439 36.016 108.963C36.016 107.991 36.484 107.199 37.798 107.199L43 107.199L43 104.877L37.654 104.877C35.116 104.859 34.054 106.065 34.054 108.081C34.054 109.575 34.63 110.529 35.584 111.105L34.234 111.249L34.234 113.409L43 113.409Z" fill="#192E40"/>
+                    <g filter="url(#filter3_d_37_36)">
+                    <rect x="20" y="195" width="41" height="41" rx="4.82353" fill="#192E40"/>
+                    </g>
+                    <path d="M146 179.92L146 177.49L133.76 177.49L133.76 179.92L146 179.92ZM146 175.512L146 173.172L142.076 173.172C140.186 173.172 139.016 172.542 139.016 171.066C139.016 170.094 139.484 169.302 140.798 169.302L146 169.302L146 166.98L140.654 166.98C138.116 166.962 137.054 168.168 137.054 170.184C137.054 171.678 137.63 172.632 138.584 173.208L137.234 173.352L137.234 175.512L146 175.512ZM138.908 164.258L143.336 164.258C145.37 164.258 146 163.088 146 161.234L146 159.596L144.038 159.596L144.038 160.766C144.038 161.72 143.804 161.918 142.652 161.918L138.908 161.918L138.908 159.65L137.234 159.65L137.234 161.918L134.768 161.918L134.768 164.258L137.234 164.258L137.234 165.716L138.908 165.716L138.908 164.258ZM146 158.338L146 155.998L142.022 155.998C140.312 155.818 139.448 154.612 139.448 153.208C139.448 153.046 139.466 152.884 139.484 152.722L137.144 152.722C137.144 154.108 137.612 155.242 138.764 156.034L137.234 156.178L137.234 158.338L146 158.338ZM146.18 147.342C146.18 144.66 144.776 142.734 141.626 142.734C138.476 142.734 137.054 144.66 137.054 147.342C137.054 150.006 138.476 151.95 141.626 151.95C144.776 151.95 146.18 150.006 146.18 147.342ZM141.626 149.52C139.7 149.52 138.908 148.602 138.908 147.342C138.908 146.082 139.7 145.146 141.626 145.146C143.534 145.146 144.344 146.082 144.344 147.342C144.344 148.602 143.534 149.52 141.626 149.52ZM146.18 137.883C146.18 136.659 145.766 135.687 144.92 135.057L146 134.859L146 132.717L133.76 132.717L133.76 135.057L138.314 135.057C137.45 135.705 137.054 136.659 137.054 137.883C137.054 140.187 138.476 141.843 141.626 141.843C144.776 141.843 146.18 140.169 146.18 137.883ZM141.626 139.413C139.7 139.413 138.908 138.477 138.908 137.199C138.908 136.155 139.43 135.345 140.672 135.057L142.58 135.057C143.804 135.309 144.344 136.119 144.344 137.199C144.344 138.477 143.534 139.413 141.626 139.413ZM146.18 127.712C146.18 126.254 145.622 125.3 144.668 124.706L146 124.58L146 122.438L137.234 122.438L137.234 124.76L141.158 124.76C143.048 124.76 144.218 125.39 144.218 126.848C144.218 127.802 143.768 128.576 142.436 128.576L137.234 128.576L137.234 130.916L142.598 130.916C145.118 130.934 146.18 129.728 146.18 127.712ZM146.18 116.475C146.18 114.171 145.118 112.479 142.814 112.065L142.814 114.477C143.876 114.801 144.344 115.521 144.344 116.475C144.344 117.699 143.534 118.653 141.626 118.653C139.7 118.653 138.908 117.699 138.908 116.475C138.908 115.539 139.34 114.819 140.384 114.495L140.384 112.065C138.098 112.497 137.054 114.171 137.054 116.475C137.054 119.121 138.476 121.083 141.626 121.083C144.776 121.083 146.18 119.121 146.18 116.475ZM138.908 109.801L143.336 109.801C145.37 109.801 146 108.631 146 106.777L146 105.139L144.038 105.139L144.038 106.309C144.038 107.263 143.804 107.461 142.652 107.461L138.908 107.461L138.908 105.193L137.234 105.193L137.234 107.461L134.768 107.461L134.768 109.801L137.234 109.801L137.234 111.259L138.908 111.259L138.908 109.801ZM135.758 101.541L133.76 101.541L133.76 103.881L135.758 103.881L135.758 101.541ZM146 103.881L146 101.541L137.234 101.541L137.234 103.881L146 103.881ZM146.18 95.5748C146.18 92.8928 144.776 90.9668 141.626 90.9668C138.476 90.9668 137.054 92.8928 137.054 95.5748C137.054 98.2388 138.476 100.183 141.626 100.183C144.776 100.183 146.18 98.2388 146.18 95.5748ZM141.626 97.7528C139.7 97.7528 138.908 96.8348 138.908 95.5748C138.908 94.3148 139.7 93.3788 141.626 93.3788C143.534 93.3788 144.344 94.3148 144.344 95.5748C144.344 96.8348 143.534 97.7528 141.626 97.7528ZM146 89.6254L146 87.2854L142.076 87.2854C140.186 87.2854 139.016 86.6554 139.016 85.1794C139.016 84.2074 139.484 83.4154 140.798 83.4154L146 83.4154L146 81.0934L140.654 81.0934C138.116 81.0754 137.054 82.2814 137.054 84.2974C137.054 85.7914 137.63 86.7454 138.584 87.3214L137.234 87.4654L137.234 89.6254L146 89.6254Z" fill="#192E40"/>
+                    <g filter="url(#filter4_d_37_36)">
+                    <rect x="121" y="195" width="41" height="41" rx="4.82353" fill="#192E40"/>
+                    </g>
+                    <rect x="205.5" y="56.5" width="379" height="511" stroke="#231A49" stroke-dasharray="10 9"/>
+                    <path d="M245.18 174.592C245.18 171.694 243.74 169.48 240.554 169.012L240.554 171.586C242.21 171.946 242.966 173.152 242.966 174.592C242.966 176.482 241.76 177.94 238.88 177.94C236 177.94 234.776 176.482 234.776 174.592C234.776 173.152 235.532 171.946 237.188 171.586L237.188 169.012C234.02 169.48 232.58 171.694 232.58 174.592C232.58 177.976 234.524 180.46 238.88 180.46C243.236 180.46 245.18 177.976 245.18 174.592ZM245.18 163.391C245.18 160.709 243.776 158.783 240.626 158.783C237.476 158.783 236.054 160.709 236.054 163.391C236.054 166.055 237.476 167.999 240.626 167.999C243.776 167.999 245.18 166.055 245.18 163.391ZM240.626 165.569C238.7 165.569 237.908 164.651 237.908 163.391C237.908 162.131 238.7 161.195 240.626 161.195C242.534 161.195 243.344 162.131 243.344 163.391C243.344 164.651 242.534 165.569 240.626 165.569ZM245 157.442L245 155.102L241.076 155.102C239.186 155.102 238.016 154.526 238.016 153.212C238.016 152.33 238.484 151.628 239.798 151.628L245 151.628L245 149.288L241.076 149.288C239.186 149.288 238.016 148.73 238.016 147.398C238.016 146.534 238.484 145.814 239.798 145.814L245 145.814L245 143.492L239.654 143.492C237.116 143.474 236.054 144.626 236.054 146.516C236.054 148.064 236.738 149.018 237.872 149.558C236.612 149.99 236.054 150.962 236.054 152.33C236.054 153.698 236.594 154.598 237.512 155.156L236.234 155.282L236.234 157.442L245 157.442ZM248.6 139.352L243.92 139.352C244.766 138.722 245.18 137.768 245.18 136.562C245.18 134.294 243.758 132.656 240.608 132.656C237.458 132.656 236.054 134.312 236.054 136.562C236.054 137.786 236.45 138.722 237.296 139.352L236.234 139.55L236.234 141.692L248.6 141.692L248.6 139.352ZM239.654 139.352C238.412 139.1 237.89 138.308 237.89 137.264C237.89 136.004 238.682 135.086 240.608 135.086C242.534 135.086 243.326 136.004 243.326 137.264C243.326 138.29 242.786 139.082 241.562 139.352L239.654 139.352ZM245.18 127.145C245.18 124.463 243.776 122.537 240.626 122.537C237.476 122.537 236.054 124.463 236.054 127.145C236.054 129.809 237.476 131.753 240.626 131.753C243.776 131.753 245.18 129.809 245.18 127.145ZM240.626 129.323C238.7 129.323 237.908 128.405 237.908 127.145C237.908 125.885 238.7 124.949 240.626 124.949C242.534 124.949 243.344 125.885 243.344 127.145C243.344 128.405 242.534 129.323 240.626 129.323ZM245.18 117.398C245.18 114.914 244.442 113.384 242.534 113.384C239.15 113.384 240.428 118.946 238.61 118.946C238.034 118.946 237.674 118.442 237.674 117.416C237.674 116.354 238.07 115.94 238.808 115.85L238.808 113.582C237.188 113.708 236.054 114.806 236.054 117.434C236.054 119.72 236.936 121.34 238.7 121.34C242.282 121.34 240.968 115.76 242.57 115.76C243.2 115.76 243.56 116.246 243.56 117.434C243.56 118.712 243.038 119.162 242.354 119.216L242.354 121.556C244.028 121.466 245.18 120.494 245.18 117.398ZM245.18 108.746C245.18 107.288 244.622 106.334 243.668 105.74L245 105.614L245 103.472L236.234 103.472L236.234 105.794L240.158 105.794C242.048 105.794 243.218 106.424 243.218 107.882C243.218 108.836 242.768 109.61 241.436 109.61L236.234 109.61L236.234 111.95L241.598 111.95C244.118 111.968 245.18 110.762 245.18 108.746ZM245 101.666L245 99.3264L241.022 99.3264C239.312 99.1464 238.448 97.9404 238.448 96.5364C238.448 96.3744 238.466 96.2124 238.484 96.0504L236.144 96.0504C236.144 97.4364 236.612 98.5704 237.764 99.3624L236.234 99.5064L236.234 101.666L245 101.666ZM240.626 95.2785C243.776 95.2785 245.18 93.3525 245.18 90.7245C245.18 88.2765 244.082 86.8185 242.3 86.4945L242.3 88.8525C243.11 89.1585 243.416 89.8785 243.416 90.6705C243.416 92.0745 242.534 92.7405 241.184 92.8665L241.184 86.3505L239.762 86.3505C237.35 86.4405 236.054 88.3485 236.054 90.7245C236.054 93.3525 237.476 95.2785 240.626 95.2785ZM239.726 92.8125C238.592 92.6325 237.818 92.0205 237.818 90.7785C237.818 89.6085 238.502 88.7805 239.726 88.7805L239.726 92.8125Z" fill="white"/>
+                    <g filter="url(#filter5_d_37_36)">
+                    <rect x="222" y="195" width="41" height="41" rx="4.82353" fill="#FF9416"/>
+                    </g>
+                    <path d="M348 179.92L348 177.49L344.256 177.49L344.256 174.988C344.256 171.622 342.924 169.966 339.954 169.966C336.966 169.966 335.76 171.622 335.76 174.988L335.76 179.92L348 179.92ZM337.92 174.988C337.92 173.368 338.496 172.486 339.99 172.486C341.502 172.486 342.15 173.368 342.15 174.988L342.15 177.49L337.92 177.49L337.92 174.988ZM343.626 169.335C346.776 169.335 348.18 167.409 348.18 164.781C348.18 162.333 347.082 160.875 345.3 160.551L345.3 162.909C346.11 163.215 346.416 163.935 346.416 164.727C346.416 166.131 345.534 166.797 344.184 166.923L344.184 160.407L342.762 160.407C340.35 160.497 339.054 162.405 339.054 164.781C339.054 167.409 340.476 169.335 343.626 169.335ZM342.726 166.869C341.592 166.689 340.818 166.077 340.818 164.835C340.818 163.665 341.502 162.837 342.726 162.837L342.726 166.869ZM348 159.059L348 156.719L344.022 156.719C342.312 156.539 341.448 155.333 341.448 153.929C341.448 153.767 341.466 153.605 341.484 153.443L339.144 153.443C339.144 154.829 339.612 155.963 340.764 156.755L339.234 156.899L339.234 159.059L348 159.059ZM339.234 152.869L340.908 152.869L340.908 151.663L348 151.663L348 149.323L340.908 149.323L340.908 147.307L339.234 147.307L339.234 149.323L339 149.323C338.082 149.323 337.632 149.053 337.632 148.153L337.632 146.929L335.76 146.929L335.76 148.747C335.76 150.511 336.786 151.663 338.784 151.663L339.234 151.663L339.234 152.869ZM348.18 142.227C348.18 139.545 346.776 137.619 343.626 137.619C340.476 137.619 339.054 139.545 339.054 142.227C339.054 144.891 340.476 146.835 343.626 146.835C346.776 146.835 348.18 144.891 348.18 142.227ZM343.626 144.405C341.7 144.405 340.908 143.487 340.908 142.227C340.908 140.967 341.7 140.031 343.626 140.031C345.534 140.031 346.344 140.967 346.344 142.227C346.344 143.487 345.534 144.405 343.626 144.405ZM348 136.278L348 133.938L344.022 133.938C342.312 133.758 341.448 132.552 341.448 131.148C341.448 130.986 341.466 130.824 341.484 130.662L339.144 130.662C339.144 132.048 339.612 133.182 340.764 133.974L339.234 134.118L339.234 136.278L348 136.278ZM348 129.44L348 127.1L344.076 127.1C342.186 127.1 341.016 126.524 341.016 125.21C341.016 124.328 341.484 123.626 342.798 123.626L348 123.626L348 121.286L344.076 121.286C342.186 121.286 341.016 120.728 341.016 119.396C341.016 118.532 341.484 117.812 342.798 117.812L348 117.812L348 115.49L342.654 115.49C340.116 115.472 339.054 116.624 339.054 118.514C339.054 120.062 339.738 121.016 340.872 121.556C339.612 121.988 339.054 122.96 339.054 124.328C339.054 125.696 339.594 126.596 340.512 127.154L339.234 127.28L339.234 129.44L348 129.44ZM348.18 110.936C348.18 109.37 347.658 108.362 346.884 107.768C347.64 107.498 348 106.922 348 105.86L348 104.96L346.092 104.96L346.092 105.266C346.092 105.59 345.876 105.752 345.336 105.752L342.06 105.752C339.99 105.752 339.054 107.192 339.054 109.73C339.054 112.556 340.332 113.636 342.024 113.726L342.024 111.458C341.034 111.368 340.728 110.81 340.728 109.748C340.728 108.65 341.142 108.128 342.06 108.074C343.77 108.218 342.06 114.086 345.714 114.086C347.712 114.086 348.18 112.43 348.18 110.936ZM345.57 111.602C344.094 111.602 344.598 109.352 343.896 108.074L344.274 108.074C345.642 108.074 346.632 108.776 346.632 110.216C346.632 111.152 346.218 111.602 345.57 111.602ZM348 103.916L348 101.576L344.076 101.576C342.186 101.576 341.016 100.946 341.016 99.4704C341.016 98.4984 341.484 97.7064 342.798 97.7064L348 97.7064L348 95.3844L342.654 95.3844C340.116 95.3664 339.054 96.5724 339.054 98.5884C339.054 100.082 339.63 101.036 340.584 101.612L339.234 101.756L339.234 103.916L348 103.916ZM348.18 89.4225C348.18 87.1185 347.118 85.4265 344.814 85.0125L344.814 87.4245C345.876 87.7485 346.344 88.4685 346.344 89.4225C346.344 90.6465 345.534 91.6005 343.626 91.6005C341.7 91.6005 340.908 90.6465 340.908 89.4225C340.908 88.4865 341.34 87.7665 342.384 87.4425L342.384 85.0125C340.098 85.4445 339.054 87.1185 339.054 89.4225C339.054 92.0685 340.476 94.0305 343.626 94.0305C346.776 94.0305 348.18 92.0685 348.18 89.4225ZM343.626 84.1164C346.776 84.1164 348.18 82.1904 348.18 79.5624C348.18 77.1144 347.082 75.6564 345.3 75.3324L345.3 77.6904C346.11 77.9964 346.416 78.7164 346.416 79.5084C346.416 80.9124 345.534 81.5784 344.184 81.7044L344.184 75.1884L342.762 75.1884C340.35 75.2784 339.054 77.1864 339.054 79.5624C339.054 82.1904 340.476 84.1164 343.626 84.1164ZM342.726 81.6504C341.592 81.4704 340.818 80.8584 340.818 79.6164C340.818 78.4464 341.502 77.6184 342.726 77.6184L342.726 81.6504Z" fill="white"/>
+                    <g filter="url(#filter6_d_37_36)">
+                    <rect x="323" y="195" width="41" height="41" rx="4.82353" fill="#FF9416"/>
+                    </g>
+                    <path d="M448.18 174.592C448.18 171.694 446.74 169.48 443.554 169.012L443.554 171.586C445.21 171.946 445.966 173.152 445.966 174.592C445.966 176.482 444.76 177.94 441.88 177.94C439 177.94 437.776 176.482 437.776 174.592C437.776 173.152 438.532 171.946 440.188 171.586L440.188 169.012C437.02 169.48 435.58 171.694 435.58 174.592C435.58 177.976 437.524 180.46 441.88 180.46C446.236 180.46 448.18 177.976 448.18 174.592ZM435.76 167.549L448 167.549L448 165.209L444.076 165.209C442.186 165.209 441.016 164.579 441.016 163.103C441.016 162.113 441.484 161.339 442.798 161.339L448 161.339L448 159.017L442.654 159.017C440.116 158.999 439.054 160.205 439.054 162.221C439.054 163.661 439.594 164.615 440.494 165.209L435.76 165.209L435.76 167.549ZM448.18 154.459C448.18 152.893 447.658 151.885 446.884 151.291C447.64 151.021 448 150.445 448 149.383L448 148.483L446.092 148.483L446.092 148.789C446.092 149.113 445.876 149.275 445.336 149.275L442.06 149.275C439.99 149.275 439.054 150.715 439.054 153.253C439.054 156.079 440.332 157.159 442.024 157.249L442.024 154.981C441.034 154.891 440.728 154.333 440.728 153.271C440.728 152.173 441.142 151.651 442.06 151.597C443.77 151.741 442.06 157.609 445.714 157.609C447.712 157.609 448.18 155.953 448.18 154.459ZM445.57 155.125C444.094 155.125 444.598 152.875 443.896 151.597L444.274 151.597C445.642 151.597 446.632 152.299 446.632 153.739C446.632 154.675 446.218 155.125 445.57 155.125ZM448 147.44L448 145.1L444.022 145.1C442.312 144.92 441.448 143.714 441.448 142.31C441.448 142.148 441.466 141.986 441.484 141.824L439.144 141.824C439.144 143.21 439.612 144.344 440.764 145.136L439.234 145.28L439.234 147.44L448 147.44ZM437.758 138.262L435.76 138.262L435.76 140.602L437.758 140.602L437.758 138.262ZM448 140.602L448 138.262L439.234 138.262L439.234 140.602L448 140.602ZM448.18 132.656C448.18 130.172 447.442 128.642 445.534 128.642C442.15 128.642 443.428 134.204 441.61 134.204C441.034 134.204 440.674 133.7 440.674 132.674C440.674 131.612 441.07 131.198 441.808 131.108L441.808 128.84C440.188 128.966 439.054 130.064 439.054 132.692C439.054 134.978 439.936 136.598 441.7 136.598C445.282 136.598 443.968 131.018 445.57 131.018C446.2 131.018 446.56 131.504 446.56 132.692C446.56 133.97 446.038 134.42 445.354 134.474L445.354 136.814C447.028 136.724 448.18 135.752 448.18 132.656ZM448 127.207L448 124.867L444.076 124.867C442.186 124.867 441.016 124.291 441.016 122.977C441.016 122.095 441.484 121.393 442.798 121.393L448 121.393L448 119.053L444.076 119.053C442.186 119.053 441.016 118.495 441.016 117.163C441.016 116.299 441.484 115.579 442.798 115.579L448 115.579L448 113.257L442.654 113.257C440.116 113.239 439.054 114.391 439.054 116.281C439.054 117.829 439.738 118.783 440.872 119.323C439.612 119.755 439.054 120.727 439.054 122.095C439.054 123.463 439.594 124.363 440.512 124.921L439.234 125.047L439.234 127.207L448 127.207ZM448.18 108.703C448.18 107.137 447.658 106.129 446.884 105.535C447.64 105.265 448 104.689 448 103.627L448 102.727L446.092 102.727L446.092 103.033C446.092 103.357 445.876 103.519 445.336 103.519L442.06 103.519C439.99 103.519 439.054 104.959 439.054 107.497C439.054 110.323 440.332 111.403 442.024 111.493L442.024 109.225C441.034 109.135 440.728 108.577 440.728 107.515C440.728 106.417 441.142 105.895 442.06 105.841C443.77 105.985 442.06 111.853 445.714 111.853C447.712 111.853 448.18 110.197 448.18 108.703ZM445.57 109.369C444.094 109.369 444.598 107.119 443.896 105.841L444.274 105.841C445.642 105.841 446.632 106.543 446.632 107.983C446.632 108.919 446.218 109.369 445.57 109.369Z" fill="white"/>
+                    <g filter="url(#filter7_d_37_36)">
+                    <rect x="424" y="195" width="41" height="41" rx="4.82353" fill="#FF9416"/>
+                    </g>
+                    <path d="M549.18 174.592C549.18 171.694 547.74 169.48 544.554 169.012L544.554 171.586C546.21 171.946 546.966 173.152 546.966 174.592C546.966 176.482 545.76 177.94 542.88 177.94C540 177.94 538.776 176.482 538.776 174.592C538.776 173.152 539.532 171.946 541.188 171.586L541.188 169.012C538.02 169.48 536.58 171.694 536.58 174.592C536.58 177.976 538.524 180.46 542.88 180.46C547.236 180.46 549.18 177.976 549.18 174.592ZM549.18 163.391C549.18 160.709 547.776 158.783 544.626 158.783C541.476 158.783 540.054 160.709 540.054 163.391C540.054 166.055 541.476 167.999 544.626 167.999C547.776 167.999 549.18 166.055 549.18 163.391ZM544.626 165.569C542.7 165.569 541.908 164.651 541.908 163.391C541.908 162.131 542.7 161.195 544.626 161.195C546.534 161.195 547.344 162.131 547.344 163.391C547.344 164.651 546.534 165.569 544.626 165.569ZM549 157.442L549 155.102L545.076 155.102C543.186 155.102 542.016 154.472 542.016 152.996C542.016 152.024 542.484 151.232 543.798 151.232L549 151.232L549 148.91L543.654 148.91C541.116 148.892 540.054 150.098 540.054 152.114C540.054 153.608 540.63 154.562 541.584 155.138L540.234 155.282L540.234 157.442L549 157.442ZM541.908 146.188L546.336 146.188C548.37 146.188 549 145.018 549 143.164L549 141.526L547.038 141.526L547.038 142.696C547.038 143.65 546.804 143.848 545.652 143.848L541.908 143.848L541.908 141.58L540.234 141.58L540.234 143.848L537.768 143.848L537.768 146.188L540.234 146.188L540.234 147.646L541.908 147.646L541.908 146.188ZM544.626 140.718C547.776 140.718 549.18 138.792 549.18 136.164C549.18 133.716 548.082 132.258 546.3 131.934L546.3 134.292C547.11 134.598 547.416 135.318 547.416 136.11C547.416 137.514 546.534 138.18 545.184 138.306L545.184 131.79L543.762 131.79C541.35 131.88 540.054 133.788 540.054 136.164C540.054 138.792 541.476 140.718 544.626 140.718ZM543.726 138.252C542.592 138.072 541.818 137.46 541.818 136.218C541.818 135.048 542.502 134.22 543.726 134.22L543.726 138.252ZM549 130.442L549 128.102L545.076 128.102C543.186 128.102 542.016 127.472 542.016 125.996C542.016 125.024 542.484 124.232 543.798 124.232L549 124.232L549 121.91L543.654 121.91C541.116 121.892 540.054 123.098 540.054 125.114C540.054 126.608 540.63 127.562 541.584 128.138L540.234 128.282L540.234 130.442L549 130.442ZM541.908 119.188L546.336 119.188C548.37 119.188 549 118.018 549 116.164L549 114.526L547.038 114.526L547.038 115.696C547.038 116.65 546.804 116.848 545.652 116.848L541.908 116.848L541.908 114.58L540.234 114.58L540.234 116.848L537.768 116.848L537.768 119.188L540.234 119.188L540.234 120.646L541.908 120.646L541.908 119.188Z" fill="white"/>
+                    <g filter="url(#filter8_d_37_36)">
+                    <rect x="525" y="195" width="41" height="41" rx="4.82353" fill="#FF9416"/>
+                    </g>
+                    <rect x="626" y="79" width="41" height="108" rx="4.82353" fill="#192E40"/>
+                    <path d="M652.18 173.294C652.18 169.874 651.064 168.254 648.598 168.254C643.81 168.254 645.934 175.706 643.144 175.706C642.118 175.706 641.65 174.896 641.65 173.42C641.65 171.62 642.604 171.098 643.54 170.99L643.54 168.56C641.254 168.65 639.58 169.928 639.58 173.33C639.58 176.462 640.894 178.226 643.234 178.226C648.292 178.226 646.312 170.774 648.616 170.774C649.624 170.774 650.11 171.476 650.11 173.24C650.11 175.184 649.192 175.886 648.148 175.94L648.148 178.442C650.506 178.316 652.18 177.092 652.18 173.294ZM641.758 164.492L639.76 164.492L639.76 166.832L641.758 166.832L641.758 164.492ZM652 166.832L652 164.492L643.234 164.492L643.234 166.832L652 166.832ZM652 162.684L652 160.344L648.076 160.344C646.186 160.344 645.016 159.768 645.016 158.454C645.016 157.572 645.484 156.87 646.798 156.87L652 156.87L652 154.53L648.076 154.53C646.186 154.53 645.016 153.972 645.016 152.64C645.016 151.776 645.484 151.056 646.798 151.056L652 151.056L652 148.734L646.654 148.734C644.116 148.716 643.054 149.868 643.054 151.758C643.054 153.306 643.738 154.26 644.872 154.8C643.612 155.232 643.054 156.204 643.054 157.572C643.054 158.94 643.594 159.84 644.512 160.398L643.234 160.524L643.234 162.684L652 162.684ZM652.18 143.73C652.18 142.272 651.622 141.318 650.668 140.724L652 140.598L652 138.456L643.234 138.456L643.234 140.778L647.158 140.778C649.048 140.778 650.218 141.408 650.218 142.866C650.218 143.82 649.768 144.594 648.436 144.594L643.234 144.594L643.234 146.934L648.598 146.934C651.118 146.952 652.18 145.746 652.18 143.73ZM652 136.651L652 134.311L639.76 134.311L639.76 136.651L652 136.651ZM652.18 129.748C652.18 128.182 651.658 127.174 650.884 126.58C651.64 126.31 652 125.734 652 124.672L652 123.772L650.092 123.772L650.092 124.078C650.092 124.402 649.876 124.564 649.336 124.564L646.06 124.564C643.99 124.564 643.054 126.004 643.054 128.542C643.054 131.368 644.332 132.448 646.024 132.538L646.024 130.27C645.034 130.18 644.728 129.622 644.728 128.56C644.728 127.462 645.142 126.94 646.06 126.886C647.77 127.03 646.06 132.898 649.714 132.898C651.712 132.898 652.18 131.242 652.18 129.748ZM649.57 130.414C648.094 130.414 648.598 128.164 647.896 126.886L648.274 126.886C649.642 126.886 650.632 127.588 650.632 129.028C650.632 129.964 650.218 130.414 649.57 130.414ZM644.908 122.162L649.336 122.162C651.37 122.162 652 120.992 652 119.138L652 117.5L650.038 117.5L650.038 118.67C650.038 119.624 649.804 119.822 648.652 119.822L644.908 119.822L644.908 117.554L643.234 117.554L643.234 119.822L640.768 119.822L640.768 122.162L643.234 122.162L643.234 123.62L644.908 123.62L644.908 122.162ZM641.758 113.903L639.76 113.903L639.76 116.243L641.758 116.243L641.758 113.903ZM652 116.243L652 113.903L643.234 113.903L643.234 116.243L652 116.243ZM652.18 107.936C652.18 105.254 650.776 103.328 647.626 103.328C644.476 103.328 643.054 105.254 643.054 107.936C643.054 110.6 644.476 112.544 647.626 112.544C650.776 112.544 652.18 110.6 652.18 107.936ZM647.626 110.114C645.7 110.114 644.908 109.196 644.908 107.936C644.908 106.676 645.7 105.74 647.626 105.74C649.534 105.74 650.344 106.676 650.344 107.936C650.344 109.196 649.534 110.114 647.626 110.114ZM652 101.987L652 99.6467L648.076 99.6467C646.186 99.6467 645.016 99.0167 645.016 97.5407C645.016 96.5687 645.484 95.7767 646.798 95.7767L652 95.7767L652 93.4547L646.654 93.4547C644.116 93.4367 643.054 94.6427 643.054 96.6587C643.054 98.1527 643.63 99.1067 644.584 99.6827L643.234 99.8267L643.234 101.987L652 101.987Z" fill="white"/>
+                    <g filter="url(#filter9_d_37_36)">
+                    <rect x="626" y="195" width="41" height="41" rx="4.82353" fill="#192E40"/>
+                    </g>
+                    <rect x="727" y="79" width="41" height="109" rx="4.82353" fill="#DDDDDD"/>
+                    <rect x="828" y="79" width="41" height="109" rx="4.82353" fill="#DDDDDD"/>
+                    <path d="M753 179.92L753 175.222C753 171.586 751.236 169.174 746.88 169.174C742.524 169.174 740.76 171.586 740.76 175.222L740.76 179.92L753 179.92ZM742.92 177.49L742.92 175.312C742.92 173.296 743.874 171.694 746.88 171.694C749.868 171.694 750.84 173.296 750.84 175.312L750.84 177.49L742.92 177.49ZM748.626 168.193C751.776 168.193 753.18 166.267 753.18 163.639C753.18 161.191 752.082 159.733 750.3 159.409L750.3 161.767C751.11 162.073 751.416 162.793 751.416 163.585C751.416 164.989 750.534 165.655 749.184 165.781L749.184 159.265L747.762 159.265C745.35 159.355 744.054 161.263 744.054 163.639C744.054 166.267 745.476 168.193 748.626 168.193ZM747.726 165.727C746.592 165.547 745.818 164.935 745.818 163.693C745.818 162.523 746.502 161.695 747.726 161.695L747.726 165.727ZM753 157.916L753 155.774L751.92 155.576C752.766 154.946 753.18 154.01 753.18 152.786C753.18 150.536 751.776 148.79 748.626 148.79C745.476 148.79 744.054 150.518 744.054 152.786C744.054 153.992 744.45 154.946 745.296 155.576L740.76 155.576L740.76 157.916L753 157.916ZM747.672 155.576C746.43 155.288 745.908 154.478 745.908 153.434C745.908 152.156 746.7 151.22 748.626 151.22C750.534 151.22 751.344 152.156 751.344 153.434C751.344 154.514 750.804 155.324 749.58 155.576L747.672 155.576ZM753 147.44L753 145.1L749.022 145.1C747.312 144.92 746.448 143.714 746.448 142.31C746.448 142.148 746.466 141.986 746.484 141.824L744.144 141.824C744.144 143.21 744.612 144.344 745.764 145.136L744.234 145.28L744.234 147.44L753 147.44ZM742.758 138.262L740.76 138.262L740.76 140.602L742.758 140.602L742.758 138.262ZM753 140.602L753 138.262L744.234 138.262L744.234 140.602L753 140.602ZM748.626 136.904C751.776 136.904 753.18 134.978 753.18 132.35C753.18 129.902 752.082 128.444 750.3 128.12L750.3 130.478C751.11 130.784 751.416 131.504 751.416 132.296C751.416 133.7 750.534 134.366 749.184 134.492L749.184 127.976L747.762 127.976C745.35 128.066 744.054 129.974 744.054 132.35C744.054 134.978 745.476 136.904 748.626 136.904ZM747.726 134.438C746.592 134.258 745.818 133.646 745.818 132.404C745.818 131.234 746.502 130.406 747.726 130.406L747.726 134.438ZM744.234 127.275L745.908 127.275L745.908 126.069L753 126.069L753 123.729L745.908 123.729L745.908 121.713L744.234 121.713L744.234 123.729L744 123.729C743.082 123.729 742.632 123.459 742.632 122.559L742.632 121.335L740.76 121.335L740.76 123.153C740.76 124.917 741.786 126.069 743.784 126.069L744.234 126.069L744.234 127.275Z" fill="#192E40"/>
+                    <g filter="url(#filter10_d_37_36)">
+                    <rect x="727" y="195" width="41" height="41" rx="4.82353" fill="#192E40"/>
+                    </g>
+                    <path d="M840.76 179.92L853 179.92L853 171.046L850.84 171.046L850.84 177.49L847.924 177.49L847.924 172.216L845.836 172.216L845.836 177.49L842.92 177.49L842.92 171.046L840.76 171.046L840.76 179.92ZM844.234 170.504L848.698 167.12L853 170.378L853 167.768L850.426 165.806L853 163.862L853 161.216L848.662 164.492L844.234 161.126L844.234 163.736L846.934 165.788L844.234 167.84L844.234 170.504ZM842.758 157.791L840.76 157.791L840.76 160.131L842.758 160.131L842.758 157.791ZM853 160.131L853 157.791L844.234 157.791L844.234 160.131L853 160.131ZM845.908 155.065L850.336 155.065C852.37 155.065 853 153.895 853 152.041L853 150.403L851.038 150.403L851.038 151.573C851.038 152.527 850.804 152.725 849.652 152.725L845.908 152.725L845.908 150.457L844.234 150.457L844.234 152.725L841.768 152.725L841.768 155.065L844.234 155.065L844.234 156.523L845.908 156.523L845.908 155.065ZM853.18 140.671C853.18 138.187 852.442 136.657 850.534 136.657C847.15 136.657 848.428 142.219 846.61 142.219C846.034 142.219 845.674 141.715 845.674 140.689C845.674 139.627 846.07 139.213 846.808 139.123L846.808 136.855C845.188 136.981 844.054 138.079 844.054 140.707C844.054 142.993 844.936 144.613 846.7 144.613C850.282 144.613 848.968 139.033 850.57 139.033C851.2 139.033 851.56 139.519 851.56 140.707C851.56 141.985 851.038 142.435 850.354 142.489L850.354 144.829C852.028 144.739 853.18 143.767 853.18 140.671ZM853.18 132.019C853.18 130.561 852.622 129.607 851.668 129.013L853 128.887L853 126.745L844.234 126.745L844.234 129.067L848.158 129.067C850.048 129.067 851.218 129.697 851.218 131.155C851.218 132.109 850.768 132.883 849.436 132.883L844.234 132.883L844.234 135.223L849.598 135.223C852.118 135.241 853.18 134.035 853.18 132.019ZM853 124.94L853 122.6L849.022 122.6C847.312 122.42 846.448 121.214 846.448 119.81C846.448 119.648 846.466 119.486 846.484 119.324L844.144 119.324C844.144 120.71 844.612 121.844 845.764 122.636L844.234 122.78L844.234 124.94L853 124.94ZM844.234 118.912L853 115.312L853 112.774L844.234 109.192L844.234 111.712L850.498 114.034L844.234 116.374L844.234 118.912ZM848.626 109.007C851.776 109.007 853.18 107.081 853.18 104.453C853.18 102.005 852.082 100.547 850.3 100.223L850.3 102.581C851.11 102.887 851.416 103.607 851.416 104.399C851.416 105.803 850.534 106.469 849.184 106.595L849.184 100.079L847.762 100.079C845.35 100.169 844.054 102.077 844.054 104.453C844.054 107.081 845.476 109.007 848.626 109.007ZM847.726 106.541C846.592 106.361 845.818 105.749 845.818 104.507C845.818 103.337 846.502 102.509 847.726 102.509L847.726 106.541ZM852.91 96.3284L853.486 96.5624C854.512 97.1204 854.584 98.0024 854.584 98.7224L856.6 98.7224C856.6 98.6864 856.6 98.6324 856.6 98.5964L856.618 98.3624C856.618 96.2924 855.862 95.1404 853.918 94.3304L844.234 90.3164L844.234 92.7104L850.12 95.1764L844.234 97.3544L844.234 99.8924L852.91 96.3284Z" fill="#192E40"/>
+                    <g filter="url(#filter11_d_37_36)">
+                    <rect x="828" y="195" width="41" height="41" rx="4.82353" fill="#192E40"/>
+                    </g>
+                    <path d="M122.061 217.061C122.646 216.475 122.646 215.525 122.061 214.939L112.515 205.393C111.929 204.808 110.979 204.808 110.393 205.393C109.808 205.979 109.808 206.929 110.393 207.515L118.879 216L110.393 224.485C109.808 225.071 109.808 226.021 110.393 226.607C110.979 227.192 111.929 227.192 112.515 226.607L122.061 217.061ZM60 217.5H121V214.5H60V217.5Z" fill="#231A49"/>
+                    <path d="M206.061 217.061C206.646 216.475 206.646 215.525 206.061 214.939L196.515 205.393C195.929 204.808 194.979 204.808 194.393 205.393C193.808 205.979 193.808 206.929 194.393 207.515L202.879 216L194.393 224.485C193.808 225.071 193.808 226.021 194.393 226.607C194.979 227.192 195.929 227.192 196.515 226.607L206.061 217.061ZM162 217.5H205V214.5H162V217.5Z" fill="#231A49"/>
+                    <path d="M728.061 217.061C728.646 216.475 728.646 215.525 728.061 214.939L718.515 205.393C717.929 204.808 716.979 204.808 716.393 205.393C715.808 205.979 715.808 206.929 716.393 207.515L724.879 216L716.393 224.485C715.808 225.071 715.808 226.021 716.393 226.607C716.979 227.192 717.929 227.192 718.515 226.607L728.061 217.061ZM667 217.5H727V214.5H667V217.5Z" fill="#231A49"/>
+                    <path d="M829.061 217.061C829.646 216.475 829.646 215.525 829.061 214.939L819.515 205.393C818.929 204.808 817.979 204.808 817.393 205.393C816.808 205.979 816.808 206.929 817.393 207.515L825.879 216L817.393 224.485C816.808 225.071 816.808 226.021 817.393 226.607C817.979 227.192 818.929 227.192 819.515 226.607L829.061 217.061ZM768 217.5H828V214.5H768V217.5Z" fill="#231A49"/>
+                    <path d="M627.061 217.061C627.646 216.475 627.646 215.525 627.061 214.939L617.515 205.393C616.929 204.808 615.979 204.808 615.393 205.393C614.808 205.979 614.808 206.929 615.393 207.515L623.879 216L615.393 224.485C614.808 225.071 614.808 226.021 615.393 226.607C615.979 227.192 616.929 227.192 617.515 226.607L627.061 217.061ZM585 217.5H626V214.5H585V217.5Z" fill="#231A49"/>
+                    <path d="M324.061 217.061C324.646 216.475 324.646 215.525 324.061 214.939L314.515 205.393C313.929 204.808 312.979 204.808 312.393 205.393C311.808 205.979 311.808 206.929 312.393 207.515L320.879 216L312.393 224.485C311.808 225.071 311.808 226.021 312.393 226.607C312.979 227.192 313.929 227.192 314.515 226.607L324.061 217.061ZM263 217.5H323V214.5H263V217.5Z" fill="#231A49"/>
+                    <path d="M526.061 217.061C526.646 216.475 526.646 215.525 526.061 214.939L516.515 205.393C515.929 204.808 514.979 204.808 514.393 205.393C513.808 205.979 513.808 206.929 514.393 207.515L522.879 216L514.393 224.485C513.808 225.071 513.808 226.021 514.393 226.607C514.979 227.192 515.929 227.192 516.515 226.607L526.061 217.061ZM465 217.5H525V214.5H465V217.5Z" fill="#231A49"/>
+                    <path d="M425.061 217.061C425.646 216.475 425.646 215.525 425.061 214.939L415.515 205.393C414.929 204.808 413.979 204.808 413.393 205.393C412.808 205.979 412.808 206.929 413.393 207.515L421.879 216L413.393 224.485C412.808 225.071 412.808 226.021 413.393 226.607C413.979 227.192 414.929 227.192 415.515 226.607L425.061 217.061ZM388 217.5H424V214.5H388V217.5Z" fill="#231A49"/>
+                    <path d="M341.939 297.061C342.525 297.646 343.475 297.646 344.061 297.061L353.607 287.515C354.192 286.929 354.192 285.979 353.607 285.393C353.021 284.808 352.071 284.808 351.485 285.393L343 293.879L334.515 285.393C333.929 284.808 332.979 284.808 332.393 285.393C331.808 285.979 331.808 286.929 332.393 287.515L341.939 297.061ZM341.5 236L341.5 296L344.5 296L344.5 236L341.5 236Z" fill="#231A49"/>
+                    <path d="M364 519.5H389.5V215.5" stroke="#231A49" stroke-width="3"/>
+                    <defs>
+                    <filter id="filter0_d_37_36" x="303" y="280" width="81" height="81" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="10"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_37_36"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_37_36" result="shape"/>
+                    </filter>
+                    <filter id="filter1_d_37_36" x="303" y="381" width="81" height="81" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="10"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_37_36"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_37_36" result="shape"/>
+                    </filter>
+                    <filter id="filter2_d_37_36" x="303" y="482" width="81" height="81" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="10"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_37_36"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_37_36" result="shape"/>
+                    </filter>
+                    <filter id="filter3_d_37_36" x="0" y="179" width="81" height="81" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="10"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_37_36"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_37_36" result="shape"/>
+                    </filter>
+                    <filter id="filter4_d_37_36" x="101" y="179" width="81" height="81" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="10"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_37_36"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_37_36" result="shape"/>
+                    </filter>
+                    <filter id="filter5_d_37_36" x="202" y="179" width="81" height="81" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="10"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_37_36"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_37_36" result="shape"/>
+                    </filter>
+                    <filter id="filter6_d_37_36" x="303" y="179" width="81" height="81" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="10"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_37_36"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_37_36" result="shape"/>
+                    </filter>
+                    <filter id="filter7_d_37_36" x="404" y="179" width="81" height="81" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="10"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_37_36"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_37_36" result="shape"/>
+                    </filter>
+                    <filter id="filter8_d_37_36" x="505" y="179" width="81" height="81" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="10"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_37_36"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_37_36" result="shape"/>
+                    </filter>
+                    <filter id="filter9_d_37_36" x="606" y="179" width="81" height="81" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="10"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_37_36"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_37_36" result="shape"/>
+                    </filter>
+                    <filter id="filter10_d_37_36" x="707" y="179" width="81" height="81" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="10"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_37_36"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_37_36" result="shape"/>
+                    </filter>
+                    <filter id="filter11_d_37_36" x="808" y="179" width="81" height="81" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="10"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_37_36"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_37_36" result="shape"/>
+                    </filter>
+                    </defs>
+                    </svg>
+                <!--Key-->
+                    <svg class="key" width="160" height="117" viewBox="0 0 160 117" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="8" cy="43" r="8" fill="#D9D9D9"/>
+                        <circle cx="8" cy="77" r="8" fill="#3F5B73"/>
+                        <circle cx="8" cy="108" r="8" fill="#192E40"/>
+                        <path d="M28.16 47H29.552L30.688 44.072H35.776L36.912 47H38.304L33.984 36.12H32.48L28.16 47ZM33.232 37.56L35.296 42.872H31.168L33.232 37.56ZM39.5888 47H40.7888V43.768C40.7888 41.832 41.4768 40.2 43.3328 40.2C44.4368 40.2 45.3968 40.664 45.3968 42.312V47H46.5968V42.312C46.6128 40.088 45.5408 39.16 43.7328 39.16C42.1648 39.16 41.2528 39.784 40.7568 40.792L40.6288 39.32H39.5888V47ZM52.1188 47.16C53.9268 47.16 55.2228 46.328 55.6708 44.52H54.4068C54.0388 45.64 53.2068 46.12 52.1188 46.12C50.6788 46.12 49.5588 45.256 49.5588 43.16C49.5588 41.064 50.6788 40.2 52.1188 40.2C53.1908 40.2 54.0228 40.664 54.3908 41.784H55.6708C55.2228 39.976 53.9268 39.16 52.1188 39.16C49.9268 39.16 48.2788 40.392 48.2788 43.16C48.2788 45.928 49.9268 47.16 52.1188 47.16ZM57.3544 47H58.5544V39.32H57.3544V47ZM58.5544 37.56V36.12H57.3544V37.56H58.5544ZM60.7919 47H61.9919V36.12H60.7919V47ZM64.2294 47H65.4294V36.12H64.2294V47ZM69.7469 47.16C71.2509 47.16 72.1629 46.584 72.6589 45.768C72.7869 46.648 73.2509 47 74.4029 47H74.7549V45.864H74.4029C74.0029 45.864 73.7789 45.624 73.7789 44.92V41.784C73.7789 39.976 72.8189 39.16 70.6109 39.16C68.5149 39.16 67.5069 40.056 67.4429 41.56H68.6269C68.7069 40.648 69.2189 40.2 70.6269 40.2C71.8909 40.2 72.5309 40.648 72.6109 41.752C72.4029 43.448 67.1869 41.912 67.1869 45.032C67.1869 46.76 68.4989 47.16 69.7469 47.16ZM68.4189 45.016C68.4189 43.272 71.3149 44.072 72.6109 43.08V43.736C72.6109 45.096 71.7789 46.2 70.0669 46.2C68.9309 46.2 68.4189 45.72 68.4189 45.016ZM76.0419 39.32V47H77.2419V43.096C77.2419 41.576 78.5219 40.44 80.0419 40.44H80.2499V39.16C78.9059 39.16 77.8499 39.752 77.2099 40.936L77.0819 39.32H76.0419ZM84.0144 46.936L83.5984 47.912C83.1664 48.92 82.5264 49.08 81.7104 49.08V50.2H81.8544C82.9584 50.2 83.9024 50.152 84.7984 48.088L88.6064 39.32H87.3264L84.6384 45.512L82.1904 39.32H80.8944L84.0144 46.936ZM93.4819 43.16C93.4819 45.928 95.1139 47.16 97.3379 47.16C99.0819 47.16 100.394 46.424 100.89 44.792H99.5939C99.1779 45.736 98.3459 46.12 97.3379 46.12C95.6419 46.12 94.8579 44.984 94.7619 43.448H101.05V42.408C100.97 40.296 99.3539 39.16 97.3379 39.16C95.1139 39.16 93.4819 40.392 93.4819 43.16ZM94.8259 42.408C95.0339 41.112 95.8179 40.2 97.3379 40.2C98.6979 40.2 99.7539 41 99.7539 42.408H94.8259ZM102.729 47H103.929V36.12H102.729V47ZM105.607 43.16C105.607 45.928 107.239 47.16 109.463 47.16C111.207 47.16 112.519 46.424 113.015 44.792H111.719C111.303 45.736 110.471 46.12 109.463 46.12C107.767 46.12 106.983 44.984 106.887 43.448H113.175V42.408C113.095 40.296 111.479 39.16 109.463 39.16C107.239 39.16 105.607 40.392 105.607 43.16ZM106.951 42.408C107.159 41.112 107.943 40.2 109.463 40.2C110.823 40.2 111.879 41 111.879 42.408H106.951ZM116.054 47V43.768C116.054 41.832 116.678 40.2 118.326 40.2C119.318 40.2 120.182 40.664 120.182 42.312V47H121.382V43.768C121.382 41.832 122.006 40.2 123.654 40.2C124.646 40.2 125.51 40.664 125.51 42.312V47H126.71V42.312C126.726 40.088 125.734 39.16 124.07 39.16C122.534 39.16 121.686 39.848 121.222 40.952C120.886 39.704 120.022 39.16 118.742 39.16C117.318 39.16 116.486 39.752 116.006 40.712L115.894 39.32H114.854V47H116.054ZM128.388 43.16C128.388 45.928 130.02 47.16 132.244 47.16C133.988 47.16 135.3 46.424 135.796 44.792H134.5C134.084 45.736 133.252 46.12 132.244 46.12C130.548 46.12 129.764 44.984 129.668 43.448H135.956V42.408C135.876 40.296 134.26 39.16 132.244 39.16C130.02 39.16 128.388 40.392 128.388 43.16ZM129.732 42.408C129.94 41.112 130.724 40.2 132.244 40.2C133.604 40.2 134.66 41 134.66 42.408H129.732ZM137.636 47H138.836V43.768C138.836 41.832 139.524 40.2 141.38 40.2C142.484 40.2 143.444 40.664 143.444 42.312V47H144.644V42.312C144.66 40.088 143.588 39.16 141.78 39.16C140.212 39.16 139.3 39.784 138.804 40.792L138.676 39.32H137.636V47ZM147.542 40.28V44.664C147.542 46.456 148.246 47 149.622 47H151.014V45.96H149.926C148.95 45.96 148.742 45.784 148.742 44.52V40.28H150.934V39.32H148.742V37.016H147.542V39.32H146.166V40.28H147.542ZM155.358 47.16C157.342 47.16 158.558 46.584 158.558 44.904C158.558 41.928 153.47 43.464 153.47 41.32C153.47 40.6 154.126 40.2 155.326 40.2C156.574 40.2 157.086 40.616 157.182 41.432H158.382C158.27 40.008 157.326 39.16 155.326 39.16C153.534 39.16 152.238 39.816 152.238 41.368C152.238 44.616 157.326 43.144 157.326 44.952C157.326 45.688 156.734 46.12 155.342 46.12C153.918 46.12 153.374 45.672 153.294 44.808H152.046C152.126 46.28 153.086 47.16 155.358 47.16Z" fill="black"/>
+                        <path d="M29.28 81H36.176V79.8H30.56V70.12H29.28V81ZM37.3725 77.16C37.3725 79.928 39.0045 81.16 41.2285 81.16C42.9725 81.16 44.2845 80.424 44.7805 78.792H43.4845C43.0685 79.736 42.2365 80.12 41.2285 80.12C39.5325 80.12 38.7485 78.984 38.6525 77.448H44.9405V76.408C44.8605 74.296 43.2445 73.16 41.2285 73.16C39.0045 73.16 37.3725 74.392 37.3725 77.16ZM38.7165 76.408C38.9245 75.112 39.7085 74.2 41.2285 74.2C42.5885 74.2 43.6445 75 43.6445 76.408H38.7165ZM48.7 81.16C50.204 81.16 51.116 80.584 51.612 79.768C51.74 80.648 52.204 81 53.356 81H53.708V79.864H53.356C52.956 79.864 52.732 79.624 52.732 78.92V75.784C52.732 73.976 51.772 73.16 49.564 73.16C47.468 73.16 46.46 74.056 46.396 75.56H47.58C47.66 74.648 48.172 74.2 49.58 74.2C50.844 74.2 51.484 74.648 51.564 75.752C51.356 77.448 46.14 75.912 46.14 79.032C46.14 80.76 47.452 81.16 48.7 81.16ZM47.372 79.016C47.372 77.272 50.268 78.072 51.564 77.08V77.736C51.564 79.096 50.732 80.2 49.02 80.2C47.884 80.2 47.372 79.72 47.372 79.016ZM54.995 73.32V81H56.195V77.096C56.195 75.576 57.475 74.44 58.995 74.44H59.203V73.16C57.859 73.16 56.803 73.752 56.163 74.936L56.035 73.32H54.995ZM60.8075 81H62.0075V77.768C62.0075 75.832 62.6955 74.2 64.5515 74.2C65.6555 74.2 66.6155 74.664 66.6155 76.312V81H67.8155V76.312C67.8315 74.088 66.7595 73.16 64.9515 73.16C63.3835 73.16 62.4715 73.784 61.9755 74.792L61.8475 73.32H60.8075V81ZM70.0575 81H71.2575V73.32H70.0575V81ZM71.2575 71.56V70.12H70.0575V71.56H71.2575ZM73.495 81H74.695V77.768C74.695 75.832 75.383 74.2 77.239 74.2C78.343 74.2 79.303 74.664 79.303 76.312V81H80.503V76.312C80.519 74.088 79.447 73.16 77.639 73.16C76.071 73.16 75.159 73.784 74.663 74.792L74.535 73.32H73.495V81ZM82.185 77.08C82.185 79.8 83.689 81 85.769 81C86.985 81 87.913 80.584 88.489 79.672V80.632C88.489 82.6 87.657 83.32 86.201 83.32C84.969 83.32 84.217 82.856 83.977 82.072H82.793C83.033 83.528 84.201 84.36 86.185 84.36C88.265 84.36 89.689 83.096 89.689 80.776V73.32H88.649L88.505 74.52C87.929 73.592 87.001 73.16 85.769 73.16C83.689 73.16 82.185 74.36 82.185 77.08ZM86.025 74.2C87.257 74.2 88.201 74.792 88.489 76.184V77.96C88.201 79.368 87.257 79.96 86.025 79.96C84.553 79.96 83.465 79.112 83.465 77.08C83.465 75.048 84.553 74.2 86.025 74.2ZM98.1688 81.16C99.6727 81.16 100.585 80.584 101.081 79.768C101.209 80.648 101.673 81 102.825 81H103.177V79.864H102.825C102.425 79.864 102.201 79.624 102.201 78.92V75.784C102.201 73.976 101.241 73.16 99.0328 73.16C96.9368 73.16 95.9288 74.056 95.8648 75.56H97.0488C97.1288 74.648 97.6408 74.2 99.0488 74.2C100.313 74.2 100.953 74.648 101.033 75.752C100.825 77.448 95.6088 75.912 95.6088 79.032C95.6088 80.76 96.9208 81.16 98.1688 81.16ZM96.8408 79.016C96.8408 77.272 99.7368 78.072 101.033 77.08V77.736C101.033 79.096 100.201 80.2 98.4888 80.2C97.3528 80.2 96.8408 79.72 96.8408 79.016ZM107.744 81.16C109.552 81.16 110.848 80.328 111.296 78.52H110.032C109.664 79.64 108.832 80.12 107.744 80.12C106.304 80.12 105.184 79.256 105.184 77.16C105.184 75.064 106.304 74.2 107.744 74.2C108.816 74.2 109.648 74.664 110.016 75.784H111.296C110.848 73.976 109.552 73.16 107.744 73.16C105.552 73.16 103.904 74.392 103.904 77.16C103.904 79.928 105.552 81.16 107.744 81.16ZM113.635 74.28V78.664C113.635 80.456 114.339 81 115.715 81H117.107V79.96H116.019C115.043 79.96 114.835 79.784 114.835 78.52V74.28H117.027V73.32H114.835V71.016H113.635V73.32H112.259V74.28H113.635ZM118.62 81H119.82V73.32H118.62V81ZM119.82 71.56V70.12H118.62V71.56H119.82ZM121.098 73.32L124.25 81H125.674L128.826 73.32H127.53L124.97 79.8L122.394 73.32H121.098ZM130.104 81H131.304V73.32H130.104V81ZM131.304 71.56V70.12H130.104V71.56H131.304ZM134.198 74.28V78.664C134.198 80.456 134.902 81 136.278 81H137.67V79.96H136.582C135.606 79.96 135.398 79.784 135.398 78.52V74.28H137.59V73.32H135.398V71.016H134.198V73.32H132.822V74.28H134.198ZM139.183 81H140.383V73.32H139.183V81ZM140.383 71.56V70.12H139.183V71.56H140.383ZM142.06 77.16C142.06 79.928 143.692 81.16 145.916 81.16C147.66 81.16 148.972 80.424 149.468 78.792H148.172C147.756 79.736 146.924 80.12 145.916 80.12C144.22 80.12 143.436 78.984 143.34 77.448H149.628V76.408C149.548 74.296 147.932 73.16 145.916 73.16C143.692 73.16 142.06 74.392 142.06 77.16ZM143.404 76.408C143.612 75.112 144.396 74.2 145.916 74.2C147.276 74.2 148.332 75 148.332 76.408H143.404ZM154.14 81.16C156.124 81.16 157.34 80.584 157.34 78.904C157.34 75.928 152.252 77.464 152.252 75.32C152.252 74.6 152.908 74.2 154.108 74.2C155.356 74.2 155.868 74.616 155.964 75.432H157.164C157.052 74.008 156.108 73.16 154.108 73.16C152.316 73.16 151.02 73.816 151.02 75.368C151.02 78.616 156.108 77.144 156.108 78.952C156.108 79.688 155.516 80.12 154.124 80.12C152.7 80.12 152.156 79.672 152.076 78.808H150.828C150.908 80.28 151.868 81.16 154.14 81.16Z" fill="black"/>
+                        <path d="M33.056 112.16C35.776 112.16 37.248 111.392 37.248 109.104C37.248 105.04 30.272 107.344 30.272 104C30.272 102.672 31.328 102.16 32.992 102.16C34.88 102.16 35.52 103.104 35.664 104.272H37.024C36.864 102.24 35.744 100.96 32.992 100.96C30.496 100.96 28.912 101.888 28.912 104.064C28.912 108.56 35.888 106.496 35.888 109.168C35.888 110.432 34.944 110.96 33.04 110.96C31.12 110.96 30.032 110.224 29.984 108.816H28.64C28.752 110.912 29.904 112.16 33.056 112.16ZM39.0106 112H40.2106V104.32H39.0106V112ZM40.2106 102.56V101.12H39.0106V102.56H40.2106ZM43.6481 112V108.768C43.6481 106.832 44.2721 105.2 45.9201 105.2C46.9121 105.2 47.7761 105.664 47.7761 107.312V112H48.9761V108.768C48.9761 106.832 49.6001 105.2 51.2481 105.2C52.2401 105.2 53.1041 105.664 53.1041 107.312V112H54.3041V107.312C54.3201 105.088 53.3281 104.16 51.6641 104.16C50.1281 104.16 49.2801 104.848 48.8161 105.952C48.4801 104.704 47.6161 104.16 46.3361 104.16C44.9121 104.16 44.0801 104.752 43.6001 105.712L43.4881 104.32H42.4481V112H43.6481ZM59.3739 112.16C60.9099 112.16 61.8059 111.552 62.3179 110.544L62.4299 112H63.4699V104.32H62.2699V107.552C62.2699 109.488 61.5979 111.12 59.7739 111.12C58.6859 111.12 57.7419 110.656 57.7419 109.008V104.32H56.5419V109.008C56.5259 111.232 57.5819 112.16 59.3739 112.16ZM65.7138 112H66.9138V101.12H65.7138V112ZM71.2313 112.16C72.7352 112.16 73.6473 111.584 74.1433 110.768C74.2713 111.648 74.7353 112 75.8873 112H76.2393V110.864H75.8873C75.4873 110.864 75.2633 110.624 75.2633 109.92V106.784C75.2633 104.976 74.3033 104.16 72.0953 104.16C69.9993 104.16 68.9913 105.056 68.9273 106.56H70.1113C70.1913 105.648 70.7033 105.2 72.1113 105.2C73.3753 105.2 74.0153 105.648 74.0953 106.752C73.8873 108.448 68.6713 106.912 68.6713 110.032C68.6713 111.76 69.9833 112.16 71.2313 112.16ZM69.9033 110.016C69.9033 108.272 72.7993 109.072 74.0953 108.08V108.736C74.0953 110.096 73.2633 111.2 71.5513 111.2C70.4153 111.2 69.9033 110.72 69.9033 110.016ZM77.8698 105.28V109.664C77.8698 111.456 78.5738 112 79.9498 112H81.3418V110.96H80.2538C79.2778 110.96 79.0698 110.784 79.0698 109.52V105.28H81.2618V104.32H79.0698V102.016H77.8698V104.32H76.4938V105.28H77.8698ZM82.8544 112H84.0544V104.32H82.8544V112ZM84.0544 102.56V101.12H82.8544V102.56H84.0544ZM89.5719 112.16C91.7959 112.16 93.4119 110.928 93.4119 108.16C93.4119 105.392 91.7959 104.16 89.5719 104.16C87.3479 104.16 85.7319 105.392 85.7319 108.16C85.7319 110.928 87.3479 112.16 89.5719 112.16ZM87.0119 108.16C87.0119 106.064 88.0999 105.2 89.5719 105.2C91.0439 105.2 92.1319 106.064 92.1319 108.16C92.1319 110.256 91.0439 111.12 89.5719 111.12C88.0999 111.12 87.0119 110.256 87.0119 108.16ZM95.0888 112H96.2888V108.768C96.2888 106.832 96.9768 105.2 98.8328 105.2C99.9368 105.2 100.897 105.664 100.897 107.312V112H102.097V107.312C102.113 105.088 101.041 104.16 99.2328 104.16C97.6648 104.16 96.7528 104.784 96.2568 105.792L96.1288 104.32H95.0888V112Z" fill="black"/>
+                        <path d="M3.488 14V11.696L4.736 10.208L7.6 14H11.008L6.416 8.144L10.576 3.12H7.136L3.488 7.76V3.12H0.752V14H3.488ZM10.7099 10.08C10.7099 12.896 12.4859 14.16 14.8859 14.16C17.3499 14.16 18.6459 13.04 18.7899 11.472H16.1659C15.9739 12.048 15.4779 12.24 14.9659 12.24C14.0059 12.24 13.5419 11.696 13.4299 10.72H18.8859V9.296C18.8059 7.152 17.0619 5.968 14.8859 5.968C12.4859 5.968 10.7099 7.264 10.7099 10.08ZM13.4619 9.248C13.5899 8.432 13.9899 7.904 14.8059 7.904C15.6379 7.904 16.1659 8.384 16.1659 9.248H13.4619ZM22.0754 13.92L22.0114 14.096C21.5314 14.848 20.8754 14.944 20.0594 14.944V17.2C20.2354 17.216 20.4114 17.216 20.5874 17.216C22.0914 17.216 23.6754 16.736 24.5074 14.64L27.9154 6.128H25.2434L23.3714 10.72L21.7714 6.128H18.8914L22.0754 13.92Z" fill="#192E40"/>
+                        <line y1="22.75" x2="160" y2="22.75" stroke="#192E40" stroke-width="0.5"/>
+                        </svg>
+    
+            </div>
+        </div>
+
+    </section>
+
+    <div class="spacer"></div>
+
+    <section class="level-objectives">
+        <h1 class="section_title">Key programme-level objective and goals</h1>
+        <!--Goals icon-->
+        <svg class="goals-icon" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 100C76.4277 100 97.8516 78.5761 97.8516 52.1484C97.8516 25.7207 76.4277 4.29688 50 4.29688C23.5723 4.29688 2.14844 25.7207 2.14844 52.1484C2.14844 78.5761 23.5723 100 50 100Z" fill="#192E40"/>
+            <path d="M53.418 70.6628V60.1912C53.0146 60.29 52.5934 60.3433 52.1596 60.3433H47.8404C47.4066 60.3433 46.9854 60.29 46.582 60.1912V70.6628H53.418Z" fill="#FFAF10"/>
+            <path d="M49.6094 70.6628V60.3433H47.8404C47.4066 60.3433 46.9854 60.29 46.582 60.1912V70.6628H49.6094Z" fill="#EF9614"/>
+            <path d="M50 55.6647C47.3822 55.6647 44.8752 55.1827 42.5613 54.3052V55.2681C42.5613 58.1835 44.9248 60.547 47.8404 60.547H52.1596C55.0752 60.547 57.4387 58.1835 57.4387 55.2681V54.3052C55.1246 55.1827 52.6178 55.6647 50 55.6647Z" fill="#FFD00D"/>
+            <path d="M48.6121 55.6179C46.4953 55.4792 44.4631 55.0265 42.5615 54.3052V55.2681C42.5615 58.1835 44.925 60.547 47.8406 60.547H52.1598C52.4525 60.547 52.7395 60.5222 53.0191 60.4763C50.6248 60.0841 48.7734 58.0819 48.6121 55.6179Z" fill="#FFAF10"/>
+            <path d="M57.6172 74.6094V71.2891C57.6172 70.752 57.1777 70.3125 56.6406 70.3125H43.3594C42.8223 70.3125 42.3828 70.752 42.3828 71.2891V74.6094H57.6172Z" fill="#EF8318"/>
+            <path d="M48.2422 74.6094V71.2891C48.2422 70.752 48.6816 70.3125 49.2188 70.3125H43.3594C42.8223 70.3125 42.3828 70.752 42.3828 71.2891V74.6094H48.2422Z" fill="#DB722C"/>
+            <path d="M68.457 91.2109V75.1953C68.457 74.6582 68.0176 74.2188 67.4805 74.2188H32.5195C31.9824 74.2188 31.543 74.6582 31.543 75.1953V91.2109H68.457Z" fill="#A05F33"/>
+            <path d="M34.5703 91.2109V75.1953C34.5703 74.6582 35.0098 74.2188 35.5469 74.2188H32.5195C31.9824 74.2188 31.543 74.6582 31.543 75.1953V91.2109H34.5703Z" fill="#87502A"/>
+            <path d="M63.0902 86.9141C63.0902 87.4512 62.6508 87.8906 62.1137 87.8906H37.8863C37.3492 87.8906 36.9098 87.4512 36.9098 86.9141V78.7109C36.9098 78.1738 37.3492 77.7344 37.8863 77.7344H62.1137C62.6508 77.7344 63.0902 78.1738 63.0902 78.7109V86.9141Z" fill="#192E40"/>
+            <path d="M40.8115 86.9141V78.7109C40.8115 78.1738 41.251 77.7344 41.7881 77.7344H37.8863C37.3492 77.7344 36.9098 78.1738 36.9098 78.7109V86.9141C36.9098 87.4512 37.3492 87.8906 37.8863 87.8906H41.7881C41.251 87.8906 40.8115 87.4512 40.8115 86.9141Z" fill="#040016"/>
+            <path d="M72.5586 91.0156H27.4414C26.9043 91.0156 26.4648 91.4551 26.4648 91.9922V93.8187C33.4145 97.7521 41.4443 100 50 100C58.5557 100 66.5855 97.7522 73.5352 93.8186V91.9922C73.5352 91.4551 73.0957 91.0156 72.5586 91.0156Z" fill="#BF7E52"/>
+            <path d="M32.4219 91.9922C32.4219 91.4551 32.8613 91.0156 33.3984 91.0156H27.4414C26.9043 91.0156 26.4648 91.4551 26.4648 91.9922V93.8187C28.3729 94.8986 30.3625 95.8506 32.4219 96.6646V91.9922Z" fill="#AA6B3F"/>
+            <path d="M82.8623 4.99829H75.293V6.64067C75.293 7.07153 74.9426 7.42192 74.5117 7.42192H71.2342C71.1262 7.42192 71.0389 7.50942 71.0389 7.61724V9.8811H81.2772C80.859 18.4364 76.9912 26.1 71.0389 31.5084V34.626C71.0389 35.7604 70.9473 36.8737 70.7736 37.9598C80.0945 31.4045 86.1977 20.569 86.1977 8.33364C86.1977 6.49438 84.7014 4.99829 82.8623 4.99829Z" fill="#FFAF10"/>
+            <path d="M28.9613 34.626V31.5084C23.0092 26.1 19.141 18.4364 18.723 9.8811H28.9613V7.61724C28.9613 7.50942 28.8738 7.42192 28.766 7.42192H25.4883C25.0574 7.42192 24.707 7.07153 24.707 6.64067V4.99829H17.1377C15.2986 4.99829 13.8023 6.49458 13.8023 8.33364C13.8023 20.5692 19.9057 31.4047 29.2264 37.96C29.0527 36.8737 28.9613 35.7604 28.9613 34.626Z" fill="#FFD00D"/>
+            <path d="M28.766 7.42188V34.626C28.766 46.3531 38.2729 55.86 50 55.86C61.7272 55.86 71.2342 46.3531 71.2342 34.626V7.42188H28.766Z" fill="#EF8318"/>
+            <path d="M33.0078 34.6259V7.22705H28.766V34.6259C28.766 46.353 38.2729 55.8599 50 55.8599C50.7111 55.8599 51.4129 55.8222 52.1059 55.7534C41.3816 54.6821 33.0078 45.6319 33.0078 34.6259Z" fill="#DB722C"/>
+            <path d="M50 44.8242C57.9822 44.8242 64.4531 38.3533 64.4531 30.3711C64.4531 22.3889 57.9822 15.918 50 15.918C42.0178 15.918 35.5469 22.3889 35.5469 30.3711C35.5469 38.3533 42.0178 44.8242 50 44.8242Z" fill="#DB722C"/>
+            <path d="M39.2578 30.3708C39.2578 23.0177 44.7502 16.9517 51.8555 16.0404C51.2477 15.9625 50.6293 15.9177 50 15.9177C42.0178 15.9177 35.5469 22.3886 35.5469 30.3708C35.5469 38.3531 42.0178 44.824 50 44.824C50.6293 44.824 51.2477 44.7792 51.8555 44.7013C44.7502 43.7902 39.2578 37.724 39.2578 30.3708Z" fill="#C95E23"/>
+            <path d="M55.0305 39.3941C54.7916 39.3943 54.5473 39.3295 54.3045 39.2018L50.3695 37.1332C50.3102 37.102 50.1777 37.0654 50.0002 37.0654C49.8225 37.0654 49.69 37.102 49.6303 37.1332L45.6957 39.2018C45.4527 39.3295 45.2084 39.3941 44.9697 39.3941C44.6072 39.3941 44.2828 39.2463 44.0566 38.9779C43.8057 38.6805 43.7104 38.2676 43.7879 37.8154L44.5395 33.4342C44.5725 33.2418 44.4508 32.8674 44.3111 32.7311L41.1279 29.6281C40.7135 29.224 40.5633 28.7232 40.7158 28.2541C40.8684 27.785 41.2842 27.4684 41.8568 27.3852L46.2557 26.7461C46.4486 26.718 46.7674 26.4865 46.8537 26.3115L48.8209 22.3252C49.0772 21.8063 49.5068 21.5088 50.0002 21.5088C50.4936 21.5088 50.9234 21.8063 51.1793 22.3252L53.1467 26.3115C53.233 26.4865 53.5516 26.7182 53.7445 26.7461L58.1436 27.3852C58.716 27.4684 59.132 27.785 59.2844 28.2541C59.4369 28.7232 59.2869 29.224 58.8727 29.6279L55.6893 32.7311C55.5494 32.8672 55.4277 33.2418 55.4607 33.4342L56.2121 37.8154C56.2897 38.2676 56.1943 38.6805 55.9436 38.9779C55.7172 39.2463 55.3928 39.3941 55.0305 39.3941Z" fill="#FFD00D"/>
+            <path d="M47.0117 37.3967L47.826 32.6493C47.8617 32.4409 47.7299 32.0348 47.5785 31.8874L44.1291 28.525C43.7055 28.112 43.5404 27.6061 43.6613 27.1233L41.8564 27.3856C41.2838 27.4688 40.868 27.7854 40.7154 28.2545C40.5629 28.7237 40.7131 29.2245 41.1275 29.6286L44.3107 32.7315C44.4504 32.8676 44.5721 33.2422 44.5391 33.4346L43.7875 37.8159C43.7102 38.268 43.8055 38.6809 44.0562 38.9784C44.2826 39.2467 44.6068 39.3946 44.9693 39.3946C45.2082 39.3946 45.4523 39.3299 45.6953 39.2022L47.1545 38.435C46.9975 38.1416 46.9455 37.7831 47.0117 37.3967Z" fill="#FFAF10"/>
+            <path d="M75.4883 6.64062C75.4883 7.17773 75.0488 7.61719 74.5117 7.61719H25.4883C24.9512 7.61719 24.5117 7.17773 24.5117 6.64062V0.976562C24.5117 0.439453 24.9512 0 25.4883 0H74.5117C75.0488 0 75.4883 0.439453 75.4883 0.976562V6.64062Z" fill="#FFD00D"/>
+            <path d="M30.4688 6.64062V0.976562C30.4688 0.439453 30.9082 0 31.4453 0H25.4883C24.9512 0 24.5117 0.439453 24.5117 0.976562V6.64062C24.5117 7.17773 24.9512 7.61719 25.4883 7.61719H31.4453C30.9082 7.61719 30.4688 7.17773 30.4688 6.64062Z" fill="#FFAF10"/>
+            <path d="M24.8047 64.6485C24.5533 64.6485 24.3299 64.4881 24.2496 64.25C23.1254 60.9192 22.284 60.0778 18.9533 58.9538C18.715 58.8733 18.5547 58.6499 18.5547 58.3985C18.5547 58.1471 18.715 57.9237 18.9531 57.8434C22.2838 56.7194 23.1252 55.8778 24.2494 52.5471C24.3299 52.309 24.5531 52.1487 24.8045 52.1487C25.0559 52.1487 25.2793 52.309 25.3596 52.5471C26.4838 55.8778 27.3252 56.7194 30.6559 57.8434C30.8939 57.9239 31.0545 58.1471 31.0545 58.3985C31.0545 58.6499 30.8941 58.8733 30.6559 58.9538C27.3252 60.0778 26.4838 60.9192 25.3596 64.25C25.2795 64.4881 25.0561 64.6485 24.8047 64.6485Z" fill="#FFD00D"/>
+            <path d="M73.3398 58.2031C73.1396 58.2031 72.9613 58.0754 72.8973 57.8857C72.0016 55.2314 71.3309 54.5609 68.6768 53.6652C68.4873 53.601 68.3594 53.423 68.3594 53.2227C68.3594 53.0225 68.4873 52.8443 68.6768 52.7803C71.3311 51.8846 72.0016 51.2139 72.8973 48.5598C72.9613 48.3699 73.1395 48.2422 73.3398 48.2422C73.5402 48.2422 73.718 48.3699 73.7824 48.5598C74.6781 51.2139 75.3488 51.8844 78.0029 52.7803C78.1924 52.8443 78.3203 53.0225 78.3203 53.2227C78.3203 53.423 78.1924 53.601 78.0029 53.6652C75.3486 54.5611 74.6781 55.2314 73.7824 57.8857C73.718 58.0754 73.54 58.2031 73.3398 58.2031Z" fill="white"/>
+            <path d="M55.2734 81.8359H44.7266C44.1873 81.8359 43.75 81.3986 43.75 80.8594C43.75 80.3201 44.1873 79.8828 44.7266 79.8828H55.2734C55.8129 79.8828 56.25 80.3201 56.25 80.8594C56.25 81.3986 55.8129 81.8359 55.2734 81.8359Z" fill="white"/>
+            <path d="M52.9297 85.3516H47.0703C46.5311 85.3516 46.0938 84.9143 46.0938 84.375C46.0938 83.8357 46.5311 83.3984 47.0703 83.3984H52.9297C53.4691 83.3984 53.9062 83.8357 53.9062 84.375C53.9062 84.9143 53.4691 85.3516 52.9297 85.3516Z" fill="white"/>
+            <path d="M38.0859 15.625C37.8975 15.625 37.7299 15.5047 37.6695 15.3262C36.8264 12.8281 36.1953 12.1971 33.6973 11.3539C33.5187 11.2936 33.3984 11.126 33.3984 10.9375C33.3984 10.749 33.5187 10.5814 33.6973 10.5211C36.1953 9.67812 36.8264 9.04687 37.6695 6.54883C37.7299 6.37031 37.8975 6.25 38.0859 6.25C38.2744 6.25 38.442 6.37031 38.5023 6.54883C39.3455 9.04687 39.9766 9.67793 42.4746 10.5211C42.6531 10.5814 42.7734 10.749 42.7734 10.9375C42.7734 11.126 42.6531 11.2936 42.4746 11.3539C39.9766 12.1971 39.3455 12.8281 38.5023 15.3262C38.442 15.5047 38.2744 15.625 38.0859 15.625Z" fill="white"/>
+        </svg>
+
+        <h4 class="g-title">Goals</h4>
+        <p class="section_para-bold">Learn how to communicate effectively with an audience</p>
+        
+        <div class="goals-col">
+
+            <div class="outcomes">
+                <h4 class="g-title">Outcomes</h4>
+                <div class="points">
+                    <!--target icon-->
+                    <img class="out-icon" src="https://cdn.discordapp.com/attachments/1068113709840478290/1072154220532334641/01-target.png" alt="">
+                    <p class="target-p">Feel calm, focused and in control of your body, mind and 
+                    senses when speaking for an audience</p>
+                </div>
+                <div class="points">
+                    <!--target icon-->
+                    <img class="out-icon" src="https://cdn.discordapp.com/attachments/1068113709840478290/1072154220767219863/02-microphone.png" alt="">
+
+                    <p class="target-p">Use your voice and body language to enhance your words</p>
+                </div>
+                <div class="points">
+                    <!--target icon-->
+                    <img class="out-icon" src="https://cdn.discordapp.com/attachments/1068113709840478290/1072154221035651143/03-link.png" alt="">
+
+                    <p class="target-p">Build a genuine connection with your audience</p>
+                </div>
+                <div class="points">
+                    <!--target icon-->
+                    <img class="out-icon" src="https://cdn.discordapp.com/attachments/1068113709840478290/1072154221245370459/04-convo.png" alt="">
+
+                    <p class="target-p">Deliver a message that your audience won’t forget</p>
+                </div>
+                
+                
+            </div>
+            <div id="terminology">
+                <h6>A word about terminology</h6>
+                <p class="term-p">As a medium, Virtual Reality is not best suited to didactic teaching methods. <br><br>
+
+                    Our intention is that all Bodyswaps modules follow a student-centred constructivist pedagogy. This means creating rich experiences in which learners can explore key concepts and ideas and reach their own conclusions.<br><br>
+                    
+                    This is why our documents speak in terms of learning goals and outcomes, rather than measurable ‘learning objectives’ (a la Bloom’s Taxonomy) per se.
+                </p>
+                <button onclick="gotIt()">
+                    Got it
+                </button>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="chracters">
+        <h1 class="section_title">Characters</h1>
+
+        <!--Responsive design start-->
+
+        <div class="container">
+            <div class="item">
+              <img src="https://cdn.discordapp.com/attachments/1068113709840478290/1072137251301097543/Ashley_right_size.png" alt="Image 1">
+              <h3 class="char-name">Ashley</h3>
+              <p class="char-tag">Learner guide</p>
+            </div>
+            <div class="item">
+              <img src="https://cdn.discordapp.com/attachments/1068113709840478290/1074819432070774956/Leo_Young.png" alt="Image 2">
+              <h3 class="char-name">Leo</h3>
+              <p class="char-tag">Composure coach</p>
+            </div>
+            <div class="item">
+              <img src="https://cdn.discordapp.com/attachments/1068113709840478290/1072139107674894418/Nola-right.png" alt="Image 3">
+              <h3 class="char-name">Nola</h3>
+              <p class="char-tag">Performance coach</p>
+            </div>
+            <div class="item">
+              <img src="https://cdn.discordapp.com/attachments/1068113709840478290/1072140947929964564/Jeremy_right.png" alt="Image 4">
+              <h3 class="char-name">Luke</h3>
+              <p class="char-tag">Chrisma coach</p>
+            </div>
+            <div class="item">
+              <img src="https://cdn.discordapp.com/attachments/1068113709840478290/1072141858479820840/Faye_right.png" alt="Image 5">
+              <h3 class="char-name">Faye</h3>
+              <p class="char-tag">Content coach</p>
+            </div>
+          </div>
+
+        <!--Responsive design end-->
+          <!--OLD 
+        <div class="models">
+            <div class="person">
+                <img class="char-ash" src="https://cdn.discordapp.com/attachments/1068113709840478290/1072137251301097543/Ashley_right_size.png" alt="Ashley">
+               
+                <h6 class="char-name" >Ashley</h6>
+                <p class="char-tag" >Learner guide</p>
+            </div>
+            <div class="person">
+                <img class="char-leo" src="https://cdn.discordapp.com/attachments/1068113709840478290/1074819432070774956/Leo_Young.png" alt="">
+                <h6 class="char-name" >Leo</h6>
+                <p class="char-tag" >Composure coach</p>
+            </div>
+            <div class="person">
+                <img class="char-nola" src="https://cdn.discordapp.com/attachments/1068113709840478290/1072139107674894418/Nola-right.png" alt="">
+                <h6 class="char-name" >Nola</h6>
+                <p class="char-tag" >Performance coach</p>
+            </div>
+            <div class="person">
+                <img class="char-jeremy" src="https://cdn.discordapp.com/attachments/1068113709840478290/1072140947929964564/Jeremy_right.png" alt="">
+                <h6 class="char-name" >Luke</h6>
+                <p class="char-tag" >Charisma coach</p>
+            </div>
+            <div class="person">
+                <img class="char-faye" src="https://cdn.discordapp.com/attachments/1068113709840478290/1072141858479820840/Faye_right.png" alt="">
+                <h6 class="char-name" >Faye</h6>
+                <p class="char-tag" >Content coach</p>
+            </div>
+        </div>
+        -->
+
+    </section>
+
+    <section class="learning-enviroments" >
+        <h1 class="section_title" >Learning environments</h1>
+        <div class="card-container">
+            <div class="learn-card">
+                <img class="learn-card-img" src="https://cdn.discordapp.com/attachments/1068113709840478290/1072092848486363207/tutor_room.png" alt="">
+                <div class="title-cont">           
+                    <h4 class="g-title">Tutor Room - Bodyswaps HQ</h4>
+                    <p class="learn-tag" >Mentors private office reserved for onboarding and tutoring.</p>
+                </div>
+            </div>
+            <div class="learn-card">
+                <img class="learn-card-img" src="https://cdn.discordapp.com/attachments/1068113709840478290/1072455252495831090/Rectangle_23.png" alt="">
+                <div class="title-cont">           
+                    <h4 class="g-title">Leo’s mindfulness studio 
+                    </h4>
+                    <p class="learn-tag" >A serene and relaxing space for practising guided meditations. 
+                    </p>
+                </div>
+            </div>
+            <div class="learn-card">
+                <img class="learn-card-img" src="https://cdn.discordapp.com/attachments/1068113709840478290/1072455660308013076/Rectangle_2333.png" alt="">
+                <div class="title-cont">           
+                    <h4 class="g-title">Nola’s recording studio
+                    </h4>
+                    <p class="learn-tag" >A hi-tech studio for recording and analysing volume, intonation and pace of vocal delivery. </p>
+                </div>
+            </div>
+            <div class="learn-card">
+                <img class="learn-card-img" src="https://cdn.discordapp.com/attachments/1068113709840478290/1072457229434888212/Rectangle_23.png" alt="">
+                <div class="title-cont">           
+                    <h4 class="g-title">Jeremy’s coaching space
+                    </h4>
+                    <p class="learn-tag" >A private space for 1-2-1 coaching sessions for more authentic and charismatic speaking skills. 
+                    </p>
+                </div>
+            </div>
+            <div class="learn-card">
+                <img class="learn-card-img" src="https://cdn.discordapp.com/attachments/1068113709840478290/1072457229636223026/Rectangle_31.png" alt="">
+                <div class="title-cont">           
+                    <h4 class="g-title">Faye’s study
+                    </h4>
+                    <p class="learn-tag" >A writing room where Faye coaches learners in the secrets of the professional speechwriter. 
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="practice-enviroments" >
+        <h1 class="section_title" >Practice environments</h1>
+        <div class="card-container">
+            <div class="learn-card">
+                <img class="learn-card-img" src="https://cdn.discordapp.com/attachments/1068113709840478290/1072458551227859034/Rectangle_34.png" alt="">
+                <div class="title-cont">           
+                    <h4 class="g-title">Classroom
+                    </h4>
+                    <p class="learn-tag" >Practise presenting a project to your peers in a modern classroom.</p>
+                </div>
+            </div>
+            <div class="learn-card">
+                <img class="learn-card-img" src="https://cdn.discordapp.com/attachments/1068113709840478290/1072458551504687244/Rectangle_35.png" alt="">
+                <div class="title-cont">           
+                    <h4 class="g-title">Meeting room
+                    </h4>
+                    <p class="learn-tag" >Give a presentation to clients or colleagues in this corporate-styled meeting room. </p>
+                </div>
+            </div>
+            <div class="learn-card">
+                <img  class="learn-card-img" src="https://cdn.discordapp.com/attachments/1068113709840478290/1072458550959415317/Rectangle_33.png" alt="">
+                <div class="title-cont">           
+                    <h4 class="g-title">Public forum
+                    </h4>
+                    <p class="learn-tag" >Practise speaking to a larger audience in this conference room. </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+        <h1 class="section_title">Induction</h1>
+        <div class="induction-container">
+            <div class="induc-left">
+                <div class="induc-box">
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Purpose</h6>
+                        <p class="induc-tag">Familiarise learners with the controls and navigation</p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Location</h6>
+                        <p class="induc-tag">Tutor room</p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Characters</h6>
+                        <p class="induc-tag">Ashley and Abeeku, Learner guides</p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Duration</h6>
+                        <p class="induc-tag">3 minutes</p>
+                    </div>
+                </div>
+                <div class="induc-box-vid">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Qvofi3YMvME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="induc-right">
+                <p class="induc-para" >
+                    A generic onboarding sequence is provided as standard with virtual coaches Abeeku and Ashley. <br><br>
+
+                    The first time learners use Bodyswaps, this onboarding sequence familiarises them with the features of the app, takes them through an avatar selection and embodiment activity and prepares them for the experience to come.<br><br>
+
+                    <ul class="lists">
+                        <li>Find out how this training is different from the rest</li>
+                        <li>Select your avatar</li>
+                        <li>Discover your virtual journal</li>
+                        <li>Learn how to navigate and use the tools and settings</li>
+                    </ul>
+
+                </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h1 class="section_title">Introduction</h1>
+        <div class="induction-container">
+            <div class="induc-left">
+                <div class="induc-box">
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Purpose</h6>
+                        <p class="induc-tag">Introduce Essential Public Speaking & Presentation Skills and reflect on confidence</p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Location</h6>
+                        <p class="induc-tag">Tutor room</p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Characters</h6>
+                        <p class="induc-tag">Ashley, Learner guide</p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Journal</h6>
+                        <p class="induc-tag"><a target="_blank"  href="https://chrisjoshroberts.github.io/Bodyswaps-tutor-notes/Bodyswaps%20%7C%20PS1%20Journal_09022023.html#introduction">Introduction</a></p>
+                    </div>
+                </div>
+                <div class="induc-box-vid">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8E3S4iJJL_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="induc-right">
+                <p class="induc-para" >
+                    This topic introduces the learner to the four categories of skill (Composure, Performance, Charisma and Content) and the virtual coaches who will be guiding them through the experience. <br><br>
+
+                    The learner is then asked to complete a short likert-style self-reflection activity to indicate how confident they feel about the key learning points: <br><br>
+                    
+
+                    <ul class="lists">
+                        <li>Staying calm, focused and in control</li>
+                        <li>Using voice and body language to enhance your words</li>
+                        <li>Capturing your audience’s attention and holding it until the end</li>
+                        <li>Structuring your presentation in a memorable way</li>
+                    </ul>
+                </p>
+                <p class="induc-para">     These self-reflection questions will be repeated in the debrief at the end to assess how the learner’s confidence levels have changed. <br><br>
+
+                    <strong>Note:</strong>  It is important that the learner completes the introduction and debrief if you wish to receive data about how their confidence levels have changed as a consequence of the training.</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h1 class="section_title">Countdown to calm</h1>
+        <div class="induction-container">
+            <div class="induc-left">
+                <div class="induc-box">
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Purpose</h6>
+                        <p class="induc-tag">Learn a strategy for using the five senses to reduce the intensity of a traumatic experience
+                        </p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Location</h6>
+                        <p class="induc-tag">Leo’s mindfulness studio and conference room
+                        </p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Characters</h6>
+                        <p class="induc-tag">Leo, Composure coach and Ashley, Learner guide
+                        </p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Journal</h6>
+                        <p class="induc-tag"><a target="_blank" href="https://chrisjoshroberts.github.io/Bodyswaps-tutor-notes/Bodyswaps%20%7C%20PS1%20Journal_09022023.html#composure">Composure: Grounding activity</a></p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Pre-VR activity</h6>
+                        <p class="induc-tag"><a id="grounding"  target="_blank" href="https://chrisjoshroberts.github.io/Bodyswaps-tutor-notes/Bodyswaps%20%7C%20PS1%20offline%20activities_08022023.html#grounding">Exercise 1 - Grounding technique</a></p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Post-VR activity</h6>
+                        <p class="induc-tag"><a target="_blank" href="https://chrisjoshroberts.github.io/Bodyswaps-tutor-notes/Bodyswaps%20%7C%20PS1%20offline%20activities_08022023.html#real_world">Exercise 9 - Real world grounding</a></p>
+                    </div>
+                </div>
+                <div class="induc-box-vid">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/GZHbzqadmF4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="induc-right">
+                <p class="induc-para" >
+                    This <strong>guided meditation </strong> is designed to help learners overcome feelings of anxiety and ‘stage fright’ when speaking in front of others, by turning their attention away from negative thoughts and refocusing on the present moment. <br><br>
+
+                    It coaches them through the 5-4-3-2-1 grounding technique recommended by <a target="_blank" href="https://traumaresearchuk.org/the-54321-grounding-technique/">Trauma Research UK</a> for managing anxious thought patterns, which goes like this: <br><br>
+                                        
+
+                    <ul class="lists">
+                        <li>5 things you can see</li>
+                        <li>4 things you can feel</li>
+                        <li>3 things you can hear</li>
+                        <li>2 things you can smell</li>
+                        <li>1 thing you can taste </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h1 class="section_title">Non-verbal basics</h1>
+        <div class="induction-container">
+            <div class="induc-left">
+                <div class="induc-box">
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Purpose</h6>
+                        <p class="induc-tag">Learn a strategy for using the five senses to reduce the intensity of a traumatic experience
+                        </p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Location</h6>
+                        <p class="induc-tag">Leo’s mindfulness studio and conference room
+                        </p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Characters</h6>
+                        <p class="induc-tag">Leo, Composure coach and Ashley, Learner guide
+                        </p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Journal</h6>
+                        <p class="induc-tag"><a target="_blank" href="https://chrisjoshroberts.github.io/Bodyswaps-tutor-notes/Bodyswaps%20%7C%20PS1%20Journal_09022023.html#body_lang">Performance: Body language observation</a></p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Pre-VR activity</h6>
+                        <p class="induc-tag"><a target="_blank" href="https://chrisjoshroberts.github.io/Bodyswaps-tutor-notes/Bodyswaps%20%7C%20PS1%20offline%20activities_08022023.html#obs_others-2">Exercise 2 - Observing others - body language</a></p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Post-VR activity</h6>
+                        <p class="induc-tag"><a target="_blank" href="https://chrisjoshroberts.github.io/Bodyswaps-tutor-notes/Bodyswaps%20%7C%20PS1%20offline%20activities_08022023.html#laser_eyes">Exercise 10 - Laser eyes</a></p>
+                    </div>
+                </div>
+                <div class="induc-box-vid">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/IFC62rSFc5o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="induc-right">
+                <p class="induc-para" >
+                    In this observation activity, students learn how to connect with their audience through body language by watching Nola’s non-verbal signals while she makes a speech and indicating when they think she is displaying positive or negative body language. <br><br>
+                    
+                    Examples of positive body language include: 
+                    <ul class="lists">
+                        <li>Expansive, friendly gestures</li>
+                        <li>Upright, open posture</li>
+                        <li>Eye contact</li>
+                        <li>Communicative gestures</li>
+                    </ul>
+                </p>
+                <p class="induc-para">Examples of negative body language include: </p>
+                <ul class="lists">
+                    <li>Anxious posture</li>
+                    <li>Reading from notes</li>
+                    <li>Distracting or incongruous gestures</li>
+                    <li>Crossed arms</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1 class="section_title">Vocalises</h1>
+        <div class="induction-container">
+            <div class="induc-left">
+                <div class="induc-box">
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Purpose</h6>
+                        <p class="induc-tag">Learn how to warm up your voice prior to public 
+                            speaking                            
+                        </p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Location</h6>
+                        <p class="induc-tag">Nola’s recording studio
+                        </p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Characters</h6>
+                        <p class="induc-tag">Nola, Performance coach and Ashley, Learner guide
+                        </p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Journal</h6>
+                        <p class="induc-tag"><a target="_blank" href="https://chrisjoshroberts.github.io/Bodyswaps-tutor-notes/Bodyswaps%20%7C%20PS1%20Journal_09022023.html#per_vocal">Performance: Vocalises</a></p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Post-VR activity</h6>
+                        <p class="induc-tag"><a target="_blank" href="https://chrisjoshroberts.github.io/Bodyswaps-tutor-notes/Bodyswaps%20%7C%20PS1%20offline%20activities_08022023.html#articulators">Exercise 11 - Articulators</a></p>
+                    </div>
+                </div>
+                <div class="induc-box-vid">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vm-yg1w1UgI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="induc-right">
+                <p class="induc-para" >
+                    Practise using vocal exercises to warm up and train your voice for better public speaking performances. <br><br>
+
+In this activity, Nola leads and the learner follows on a variety of ‘vocalises,’ with the aid of real time feedback from the AI-powered audio visualiser. <br><br>
+
+Vocalises covered include: <br><br>
+
+                    <ul class="lists">
+                        <li>Inhale, exhale</li>
+                        <li>Big yawn</li>
+                        <li>Boh, boh, boh, boh…</li>
+                        <li>La, la, la, la… </li>
+                        <li>Weee ahhh, weee ahhh…</li>
+                        <li>The lips, the teeth, the tip of the tongue…</li>
+                        <li>Pa ta ka, pa ta ka, pa ta ka, pa ta ka…</li>
+                        <li>Ka ta pa, ka ta pa, ka ta pa, ka ta pa…</li>
+                        <li>Red leather, yellow leather, red leather, yellow leather</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1 class="section_title">Voice shaping</h1>
+        <div class="induction-container">
+            <div class="induc-left">
+                <div class="induc-box">
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Purpose</h6>
+                        <p class="induc-tag">Practise shaping your voice in different ways to engage with your audience</p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Location</h6>
+                        <p class="induc-tag">Nola’s recording studio and conference room
+                        </p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Characters</h6>
+                        <p class="induc-tag">Nola, Performance coach and Ashley, Learner guide
+                        </p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Journal</h6>
+                        <p class="induc-tag"><a target="_blank" href="https://chrisjoshroberts.github.io/Bodyswaps-tutor-notes/Bodyswaps%20%7C%20PS1%20Journal_09022023.html#voice_shaping">Performance: Voice shaping</a></p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Pre-VR activity</h6>
+                        <p class="induc-tag"><a target="_blank" href="https://chrisjoshroberts.github.io/Bodyswaps-tutor-notes/Bodyswaps%20%7C%20PS1%20offline%20activities_08022023.html#obs_others-3">Exercise 3 - Observing others - Voice</a></p>
+                    </div>
+                </div>
+                <div class="induc-box-vid">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dctcQH9IoQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="induc-right">
+                <p class="induc-para" >
+                    In this <strong>experimenting and modelling</strong> activity, students practise impromptu speaking and explore how varying their volume, intonation and inflection can affect how clearly others understand their message. <br><br>
+
+                    This activity is not prescriptive about how learners ‘should’ speak. Rather, it helps them to find their own most effective personal prosody by recording themselves speaking with various different deliveries - using the real-time audio visualiser as a guide. <br><br>
+
+                    They then ‘bodyswap’ to watch their performances back from the audience’s perspective in order to determine which volume and intonation has the impact they most prefer. <br><br>
+
+                    For each experiment, learners are given a topic to discuss, drawn at random from a bank of questions. These are:
+
+                    <ul class="lists">
+                        <li>If you could change one thing about yourself, what would it be?</li>
+                        <li>Describe your earliest memory.</li>
+                        <li>Describe the most disgusting thing you ever ate.</li>
+                        <li>Describe the best holiday you ever went on.</li>
+                        <li>Describe your greatest fear.</li>
+                        <li>If you could visit anywhere, where would you go?</li>
+                        <li>What would your superpower be?</li>
+                        <li>Are you a cat or a dog person?</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1 class="section_title">Verbal pacing</h1>
+        <div class="induction-container">
+            <div class="induc-left">
+                <div class="induc-box">
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Purpose</h6>
+                        <p class="induc-tag">Practise speaking at different rates</p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Location</h6>
+                        <p class="induc-tag">Nola’s recording studio and conference room
+                        </p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Characters</h6>
+                        <p class="induc-tag">Nola, Performance coach 
+                            Ashley, Learner guide
+                            
+                        </p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Journal</h6>
+                        <p class="induc-tag"><a target="_blank" href="https://chrisjoshroberts.github.io/Bodyswaps-tutor-notes/Bodyswaps%20%7C%20PS1%20Journal_09022023.html#per-verbal-pacing">Performance: Verbal pacing,</a></p> 
+                        <p class="induc-tag"><a target="_blank" href="https://chrisjoshroberts.github.io/Bodyswaps-tutor-notes/Bodyswaps%20%7C%20PS1%20Journal_09022023.html#speaking-fast">Transcript of ‘Speaking fast and speaking slow’ </a></p> 
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Pre-VR activity</h6>
+                        <p class="induc-tag"><a target="_blank" href="https://chrisjoshroberts.github.io/Bodyswaps-tutor-notes/Bodyswaps%20%7C%20PS1%20offline%20activities_08022023.html#obs-others-4">Exercise 4 - Observing others - Delivery</a></p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Post-VR activity</h6>
+                        <p class="induc-tag"><a href="https://chrisjoshroberts.github.io/Bodyswaps-tutor-notes/Bodyswaps%20%7C%20PS1%20offline%20activities_08022023.html#mixing">Exercise 12 - Mixing it up</a></p>
+                    </div>
+                </div>
+                <div class="induc-box-vid">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/U6gWY2H6Rbo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="induc-right">
+                <p class="induc-para" >
+                    In this <strong>experimenting and modelling</strong>  activity, learners explore how speaking rate affects clarity, diction and coherence of speech. <br><br>
+
+                    And they see how three successful speakers (Martin Luther King Junior, Steve Jobs and Tony Robbins) use different rates of speech to connect with their audience in different ways and find out which of these speakers most represents their own natural speaking style. 
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1 class="section_title">Your authentic voice</h1>
+        <div class="induction-container">
+            <div class="induc-left">
+                <div class="induc-box">
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Purpose</h6>
+                        <p class="induc-tag">Discover your natural speaking style
+                        </p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Location</h6>
+                        <p class="induc-tag">Jeremy’s coaching space
+                        </p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Characters</h6>
+                        <p class="induc-tag">Jeremy, Charisma coach 
+                            Ashley, Learner guide
+                            
+                            
+                        </p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Journal</h6>
+                        <p class="induc-tag"><a target="_blank"  href="https://chrisjoshroberts.github.io/Bodyswaps-tutor-notes/Bodyswaps%20%7C%20PS1%20Journal_09022023.html#auth-voice">Charisma: Your authentic voice</a></p> 
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Pre-VR activity</h6>
+                        <p class="induc-tag"><a target="_blank"  href="https://chrisjoshroberts.github.io/Bodyswaps-tutor-notes/Bodyswaps%20%7C%20PS1%20offline%20activities_08022023.html#ex-6-reflecting">Exercise 6 - Reflecting on your own communication style</a></p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Post-VR activity</h6>
+                        <p class="induc-tag"><a target="_blank" href="https://chrisjoshroberts.github.io/Bodyswaps-tutor-notes/Bodyswaps%20%7C%20PS1%20offline%20activities_08022023.html#ex-6-reflecting#ex-13-speaking-style">Exercise 13 - Your authentic speaking style</a></p>
+                    </div>
+                </div>
+                <div class="induc-box-vid">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/BuT7jB5wn5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="induc-right">
+                <p class="induc-para" >
+                    Being authentic is about presenting in a way that shows your audience your genuine self. But what if you don’t know who your genuine self is or how to express that in your presentations? <br><br>
+
+                    In this <strong>diagnostic activity,</strong> learners answer three questions (out of a possible six) to determine what kind of speaking style they are naturally drawn to: 
+                    <ul class="lists">
+                        <li>Teacher</li>
+                        <li>Motivator</li>
+                        <li>Expert</li>
+                        <li>Influencer</li>
+                    </ul>
+                </p>
+                <p class="induc-para" >This is a self-reflective exercise designed to help learners utilise their natural strengths when planning a speech, instead of trying to pretend to be something they’re not. <br><br>
+
+                    Being authentic helps a speaker to connect with their audience and speak with more confidence. 
+                    </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1 class="section_title">Beginning, middle, end</h1>
+        <div class="induction-container">
+            <div class="induc-left">
+                <div class="induc-box">
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Purpose</h6>
+                        <p class="induc-tag">Encourage the learner to think about structuring their speech
+                        </p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Location</h6>
+                        <p class="induc-tag">Faye’s study
+                        </p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Characters</h6>
+                        <p class="induc-tag">                
+                            Faye, Content coach 
+                            Ashley, Learner guide
+
+                        </p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Journal</h6>
+                        <p class="induc-tag"><a target="_blank" href="https://chrisjoshroberts.github.io/Bodyswaps-tutor-notes/Bodyswaps%20%7C%20PS1%20Journal_09022023.html#content-structuring">Content: Structuring the beginning, middle and end of your presentation</a></p> 
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Pre-VR activity</h6>
+                        <p class="induc-tag"><a target="_blank" href="https://chrisjoshroberts.github.io/Bodyswaps-tutor-notes/Bodyswaps%20%7C%20PS1%20offline%20activities_08022023.html#ex-7-choose">Exercise 7 - Choosing a speech topic</a></p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Post-VR activity</h6>
+                        <p class="induc-tag"><a target="_blank" href="https://chrisjoshroberts.github.io/Bodyswaps-tutor-notes/Bodyswaps%20%7C%20PS1%20offline%20activities_08022023.html#ex-14-structure">Exercise 14 - structure for sucess</a></p>
+                    </div>
+                </div>
+                <div class="induc-box-vid">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/iwCFWGpSk9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="induc-right">
+                <p class="induc-para" >
+                    How you structure the content of your speech can have a big influence on how successfully you engage your audience, hold their attention, get your message across and more. <br><br>
+
+                    The best speeches have a beginning, a middle and an end. And there are lots of different ways you can approach this. <br><br>
+
+                    In this <strong>mini-game,</strong> we look at three strategies for structuring the beginning, middle and end of speeches when speaking to:
+                    <ul class="lists">
+                        <li>Inform</li>
+                        <li>Inspire</li>
+                        <li>Influence</li>
+                    </ul>
+                </p>
+                <p class="induc-para" >Learners choose a purpose for their speech and are then challenged to pick the beginning, middle and end strategies that work best for them. Feedback provides illustrations taken from three TED Talks designed to inform, inspire and influence. 
+                    </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1 class="section_title">Simulation</h1>
+        <div class="induction-container">
+            <div class="induc-left">
+                <div class="induc-box">
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Purpose</h6>
+                        <p class="induc-tag">Put your public speaking skills to the test by presenting a project or idea to a small audience.  
+                        </p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Location</h6>
+                        <p class="induc-tag">Classroom, Meeting room, Public forum
+                        </p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Characters</h6>
+                        <p class="induc-tag">                
+                            Ashley, Learner guide
+
+                        </p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Journal</h6>
+                        <p class="induc-tag"><a target="_blank" href="https://chrisjoshroberts.github.io/Bodyswaps-tutor-notes/Bodyswaps%20%7C%20PS1%20Journal_09022023.html#simulation">Key public speaking skills</a></p> 
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Duration</h6>
+                        <p class="induc-tag">15 minutes</p> 
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Pre-VR activity</h6>
+                        <p class="induc-tag"><a href="https://chrisjoshroberts.github.io/Bodyswaps-tutor-notes/Bodyswaps%20%7C%20PS1%20offline%20activities_08022023.html#ex-8-prep">Exercise 8 - Preparing to present a project or idea</a></p>
+                    </div>
+                </div>
+                <div class="induc-box-vid">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/WSej9u7Q8z0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="induc-right">
+                <p class="induc-para" >
+                    In this simulation, learners choose their environment and then practise speaking in front of an audience of 12 virtual peers. For this, they can upload their own slides (prepared in advance) or choose from three ready-made speeches:
+                    <ul class="lists">
+                        <li>Real life bodyswap</li>
+                        <li>Three little words</li>
+                        <li>My earliest memory </li>
+                    </ul>
+                </p>
+                <p class="induc-para" >
+                    When they’re ready, their speech will be recorded and then they can switch positions with an audience member to see how their performance looked through their eyes. <br><br>
+
+Analytics provide feedback and guidance on how to improve their speaking in future, with metrics like:
+                    <ul class="lists">
+                        <li>Duration</li>
+                        <li>Pace</li>
+                        <li>Volume</li>
+                        <li>Intonation</li>
+                        <li>Hand gestures </li>
+                        <li>Eye contact </li>
+                    </ul>
+ 
+                    </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1 class="section_title">Debrief</h1>
+        <div class="induction-container">
+            <div class="induc-left">
+                <div class="induc-box">
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Purpose</h6>
+                        <p class="induc-tag">Debrief the learner upon completion of the training and self-reflection.   
+                        </p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Location</h6>
+                        <p class="induc-tag">Tutor room
+                        </p>
+                    </div>
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Characters</h6>
+                        <p class="induc-tag">                
+                            Ashley, Learner guide
+
+                        </p>
+                    </div>
+                </div>
+                <div class="induc-box-vid">
+                    <iframe width="560" height="560" src="https://www.youtube.com/embed/_DVxYcXIdW8" title="Public Speaking - Debrief" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="induc-right">
+                <p class="induc-para" >
+                    The primary function of the debrief activity is to encourage the learner to reflect and self-report on their confidence levels following completion of the training. <br><br>
+
+                    Here, the learner is asked the to complete the same likert-style self-reflection activity they were given in the introduction. Questions relate to how confident they now feel about the key learning points: 
+
+                    <ul class="lists" >
+                        <li>Staying calm, focused and in control</li>
+                        <li>Using voice and body language to enhance your words</li>
+                        <li>Capturing your audience’s attention and holding it until the end</li>
+                        <li>Structuring your presentation in a memorable way</li>
+                    </ul>
+                </p>
+                <p class="induc-para" >
+                    Their post-training scores are then compared with their pre-training scores and recommendations made about topics they might want to repeat and new topics from Advanced Public Speaking & Presentation Skills (coming soon). 
+                    </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h1 class="section_title">Exit survey</h1>
+        <div class="induction-container">
+            <div class="induc-left">
+                <div class="induc-box">
+                    <div class="bullet-points">
+                        <h6 class="induc-title" >Purpose</h6>
+                        <p class="induc-tag">Assess the effectiveness of the training itself. 
+   
+                        </p>
+                    </div>
+                </div>
+                <div class="induc-box-vid">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ebwULcSR1ag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                
+                </div>
+            </div>
+            <div class="induc-right">
+                <p class="induc-para" >
+                    Before the learner leaves the module, they are asked to complete a short survey about their experience. <br><br>
+
+                    This survey is not compulsory, but the data helps us to assess the effectiveness of our product and identify any areas that need improvement. Clients also find it beneficial when assessing ROI. <br><br>
+
+                        The questions are: 
+                </p>
+                <ul class="lists">
+                    <li>The experience helped me identify elements of public speaking I could improve on.</li>
+                    <li>I have a better understanding of public speaking skills now.</li>
+                    <li>Capturing your audience’s attention and holding it until the end</li>
+                    <li>I feel more confident about public speaking now.</li>
+                    <li>I found this learning experience more effective than traditional alternatives.</li>
+                    <li>I would recommend this experience to others.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <footer id="footer">
+        <div class="left">
+            <img class="footer-logo" src="https://cdn.discordapp.com/attachments/1068113709840478290/1069968010405761144/bodyswaps_logo_white.png" alt="logo">
+        
+        </div>
+        <div class="right">
+            <p class="footer-para" >
+                87-91 Hackney Road, E2 8FE London
+                +44(0)79 1773 5078 <br><br>
+
+                hello@bodyswaps.co
+                bodyswaps.co
+            </p>
+        </div>
+
+    </footer>
+</body>
+</html>
